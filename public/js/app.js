@@ -33190,7 +33190,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass:
-              "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-10",
+              "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4",
             attrs: { href: "#" }
           },
           [_vm._v("Services")]
@@ -33202,7 +33202,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass:
-              "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-10",
+              "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4",
             attrs: { href: "#" }
           },
           [_vm._v("Sending Files")]
@@ -33214,7 +33214,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass:
-              "mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 md:mt-0 md:ml-10",
+              "mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 md:mt-0 md:ml-4",
             attrs: { href: "#" }
           },
           [_vm._v("Contact Us")]

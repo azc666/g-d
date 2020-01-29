@@ -16,9 +16,9 @@
     <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 md:flex md:p-0">
       <ul id="primary" class="md:flex">
         <li><a href="#" class="block ml-2 mr-4 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">About Us</a></li>
-        <li><a href="#" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-10">Services</a></li>
-        <li><a href="#" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-10">Sending Files</a></li>
-        <li><a href="#" class="mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 md:mt-0 md:ml-10">Contact Us</a></li>
+        <li><a href="#" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4">Services</a></li>
+        <li><a href="#" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4">Sending Files</a></li>
+        <li><a href="#" class="mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 md:mt-0 md:ml-4">Contact Us</a></li>
       </ul>
     </div>
 

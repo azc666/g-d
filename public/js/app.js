@@ -33088,7 +33088,7 @@ var render = function() {
     "header",
     {
       staticClass:
-        "bg-teal-400 opacity-75 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
+        "bg-teal-400 opacity-75 md:flex md:justify-between md:items-center md:px-4 md:py-3"
     },
     [
       _c(
@@ -33148,7 +33148,7 @@ var render = function() {
       _c(
         "div",
         {
-          staticClass: "px-2 pt-2 pb-4 sm:flex sm:p-0",
+          staticClass: "px-2 pt-2 pb-4 md:flex md:p-0",
           class: _vm.isOpen ? "block" : "hidden"
         },
         [_vm._m(1)]
@@ -33172,7 +33172,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "sm:flex", attrs: { id: "primary" } }, [
+    return _c("ul", { staticClass: "md:flex", attrs: { id: "primary" } }, [
       _c("li", [
         _c(
           "a",
@@ -33190,7 +33190,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass:
-              "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-10",
+              "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-10",
             attrs: { href: "#" }
           },
           [_vm._v("Services")]
@@ -33202,7 +33202,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass:
-              "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-10",
+              "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-10",
             attrs: { href: "#" }
           },
           [_vm._v("Sending Files")]
@@ -33214,7 +33214,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass:
-              "mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 sm:mt-0 sm:ml-10",
+              "mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 md:mt-0 md:ml-10",
             attrs: { href: "#" }
           },
           [_vm._v("Contact Us")]
@@ -45823,8 +45823,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/allen/Desktop/Code/sites/1804homestead/gd/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/allen/Desktop/Code/sites/1804homestead/gd/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/allen/Desktop/Code/sites/1804homestead/g-d/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/allen/Desktop/Code/sites/1804homestead/g-d/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

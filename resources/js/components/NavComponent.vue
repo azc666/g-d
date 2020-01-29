@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-teal-400 opacity-75 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
+    <header class="bg-teal-400 opacity-75 md:flex md:justify-between md:items-center md:px-4 md:py-3">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
         <img class="h-8" src="/assets/g-d_logo_wht.gif" alt="G+D Logo">
@@ -13,12 +13,12 @@
         </button>
       </div>
     </div>
-    <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex sm:p-0">
-      <ul id="primary" class="sm:flex">
+    <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 md:flex md:p-0">
+      <ul id="primary" class="md:flex">
         <li><a href="#" class="block ml-2 mr-4 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">About Us</a></li>
-        <li><a href="#" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-10">Services</a></li>
-        <li><a href="#" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-10">Sending Files</a></li>
-        <li><a href="#" class="mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 sm:mt-0 sm:ml-10">Contact Us</a></li>
+        <li><a href="#" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-10">Services</a></li>
+        <li><a href="#" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-10">Sending Files</a></li>
+        <li><a href="#" class="mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 md:mt-0 md:ml-10">Contact Us</a></li>
       </ul>
     </div>
 

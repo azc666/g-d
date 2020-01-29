@@ -1,10 +1,10 @@
 <template>
-    <header class="bg-teal-400 opacity-75 md:flex md:justify-between md:items-center md:px-4 md:py-3">
+    <header class="bg-teal-400 opacity-75 md:flex md:justify-between md:items-center sm:px-4 sm:py-3">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
         <img class="h-8" src="/assets/g-d_logo_wht.gif" alt="G+D Logo">
       </div>
-      <div class="sm:hidden">
+      <div class="md:hidden">
         <button @click="isOpen = !isOpen" type="button" class="block text-gray-200 hover:text-white focus:text-white focus:outline-none">
           <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
             <path v-if="isOpen" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>

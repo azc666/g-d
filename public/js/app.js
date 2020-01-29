@@ -33088,7 +33088,7 @@ var render = function() {
     "header",
     {
       staticClass:
-        "bg-teal-400 opacity-75 md:flex md:justify-between md:items-center md:px-4 md:py-3"
+        "bg-teal-400 opacity-75 md:flex md:justify-between md:items-center sm:px-4 sm:py-3"
     },
     [
       _c(
@@ -33097,7 +33097,7 @@ var render = function() {
         [
           _vm._m(0),
           _vm._v(" "),
-          _c("div", { staticClass: "sm:hidden" }, [
+          _c("div", { staticClass: "md:hidden" }, [
             _c(
               "button",
               {

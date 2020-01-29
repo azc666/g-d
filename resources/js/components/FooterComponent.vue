@@ -2,12 +2,12 @@
   <footer class="absolute w-full bottom-0 bg-teal-400 opacity-75 pb-24">
 
     <div>
-      
+
     </div>
 
     <!-- <div class="container mx-auto px-4 mt-6">
-      <!-- <hr class="mb-6 border-b-1 border-gray-700" /> -->
-      <!-- <div
+      <hr class="mb-6 border-b-1 border-gray-700" />
+      <div
         class="flex items-center md:justify-between justify-center"
       >
         <div class="flex w-full md:w-4/12 px-4">

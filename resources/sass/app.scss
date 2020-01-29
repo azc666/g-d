@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,400,700);
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+.btn {
+  @apply inline-block px-5 py-3 rounded-lg text-sm uppercase tracking-wider font-semibold;
+}
+.btn:focus {
+  @apply outline-none shadow-outline;
+}
+
+.btn-indigo {
+  @apply bg-indigo-500 text-white;
+}
+.btn-indigo:hover {
+  @apply bg-indigo-400;
+}
+.btn-indigo:active {
+  @apply bg-indigo-600;
+}
+
+.btn-gray {
+  @apply bg-gray-400 text-gray-800;
+}
+.btn-gray:hover {
+  @apply bg-gray-300;
+}
+.btn-gray:active {
+  @apply bg-gray-500;
+}
+
+
+// @screen sm {
+//   .btn {
+//     @apply text-base;
+//   }
+// }
+
+$main-color: #1e91b4;
+
+#primary{
+  // position:absolute;
+  // top:0;
+  // margin:auto;
+  // text-align:center;
+  // display:flex;
+  // align-items:center;
+  // justify-content:center;
+  // height:100%;
+  li{
+    // margin:0 20px;
+    // position:relative;
+    a{
+      text-decoration:none;
+      display:block;
+      padding:5px 0;
+      font-family:'Open Sans';
+      font-size:22px;
+      line-height:1;
+      font-weight:200;
+      position:relative;
+      z-index:1;
+      // text-align: center;
+      // margin-left: 10px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(
+          to right,
+          $main-color,
+          $main-color 50%,
+          #fff 50%);
+      background-size: 200% 100%;
+      background-position: -100%;
+      transition: all 0.3s ease-in-out;
+      &:before{
+        display:block;
+        content:'';
+        width:0;
+        height:3px;
+        bottom:5px;
+        left:0;
+        bottom:-3px;
+        z-index:0;
+        position:absolute;
+        background:$main-color;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover{
+        background-position: 0%;
+        &:before{
+          width:100%;
+        }
+      }
+    }
+  }
+}
+
+@import "tailwindcss/utilities";

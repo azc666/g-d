@@ -2060,6 +2060,29 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -33049,7 +33072,35 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "footer",
+    { staticClass: "absolute w-full bottom-0 bg-teal-400 opacity-75" },
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("hr", { staticClass: "border border-gray-500" }),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "flex justify-center align-center text-sm text-gray-300 py-2 mb-1"
+        },
+        [
+          _vm._v("\n    Copyright © " + _vm._s(_vm.date) + "\n    "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "text-gray-300 hover:text-gray-400 text-sm font-semibold",
+              attrs: { href: "https://www.g-d.com" }
+            },
+            [_vm._v("  Graphics+Design")]
+          )
+        ]
+      )
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
@@ -33057,9 +33108,47 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c(
-      "footer",
-      { staticClass: "absolute w-full bottom-0 bg-teal-400 opacity-75 pb-24" },
-      [_c("div")]
+      "div",
+      { staticClass: "flex items-center justify-around px-4 py-2 text-sm" },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "text-center flex-1 text-gray-700 text-2xl text-semibold"
+          },
+          [
+            _vm._v("\n      Graphics+Design\n      "),
+            _c("br"),
+            _vm._v(" "),
+            _c("span", { staticClass: "italic text-xl" }, [
+              _vm._v('"Imaging at the Speed of Business"')
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "text-center flex-1 text-gray-700" }, [
+          _vm._v("\n      reach us\n      "),
+          _c("br"),
+          _vm._v("p: 813-254-9444\n      "),
+          _c("br"),
+          _vm._v("f: 813-254-9445\n      "),
+          _c("br"),
+          _vm._v("e: output@g-d.com\n      "),
+          _c("br"),
+          _vm._v("w: www.g-d.com\n    ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "text-center flex-1 text-gray-700" }, [
+          _vm._v("\n      Graphics+Design\n      "),
+          _c("br"),
+          _vm._v("A Division of AZC Enterprises, Inc.\n      "),
+          _c("br"),
+          _vm._v("1111 West Cass Street\n      "),
+          _c("br"),
+          _vm._v("Tampa, FL 33606\n    ")
+        ])
+      ]
     )
   }
 ]

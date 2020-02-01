@@ -714,6 +714,14 @@ video {
   width: 100%;
 }
 
+.background-trans {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.active {
+  border-bottom: 3px #FFF solid;
+}
+
 .sr-only{
   position: absolute;
   width: 1px;

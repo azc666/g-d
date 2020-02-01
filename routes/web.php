@@ -12,7 +12,23 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('main');
+});
+
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/sendfiles', function () {
+    return view('sendfiles');
+});
+
+Route::get('/contactus', function () {
+    return view('contactus');
 });
 
 Route::get('/testing', function () {
@@ -21,8 +37,4 @@ Route::get('/testing', function () {
 
 Route::get('/tw-card', function () {
     return view('/tw-card');
-});
-
-Route::get('/main-nav', function () {
-    return view('/main-nav');
 });

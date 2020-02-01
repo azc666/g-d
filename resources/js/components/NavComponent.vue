@@ -1,9 +1,11 @@
 <template>
     <header class="bg-teal-400 opacity-75 md:flex md:justify-between md:items-center sm:px-4 sm:py-3">
+
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
-        <img class="h-8" src="/assets/g-d_logo_wht.gif" alt="G+D Logo">
+        <a href="/"><img class="h-8" src="/assets/g-d_logo_wht.gif" alt="G+D Logo"></a>
       </div>
+
       <div class="md:hidden">
         <button @click="isOpen = !isOpen" type="button" class="block text-gray-200 hover:text-white focus:text-white focus:outline-none">
           <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -12,16 +14,23 @@
           </svg>
         </button>
       </div>
-    </div>
-    <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 md:flex md:p-0">
-      <ul id="primary" class="md:flex">
-        <li><a href="#" class="block ml-2 mr-4 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">About Us</a></li>
-        <li><a href="#" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4">Services</a></li>
-        <li><a href="#" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4">Sending Files</a></li>
-        <li><a href="#" class="mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 md:mt-0 md:ml-4">Contact Us</a></li>
-      </ul>
-    </div>
 
+    </div>
+<nav id="nav">
+    <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 md:flex md:p-0">
+
+
+
+      <ul id="primary" class="btn md:flex">
+        <li><a href="/aboutus" class="block ml-2 mr-4 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">About Us</a></li>
+        <li><a href="services" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4">Services</a></li>
+        <li><a href="sendfiles" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4">Sending Files</a></li>
+        <li><a href="contactus" class="mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 md:mt-0 md:ml-4">Contact Us</a></li>
+      </ul>
+
+
+    </div>
+</nav>
   </header>
 </template>
 
@@ -34,3 +43,4 @@
         },
     }
 </script>
+

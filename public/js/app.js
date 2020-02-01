@@ -2046,6 +2046,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -33059,7 +33062,7 @@ var render = function() {
             "flex justify-center align-center text-sm text-gray-400 py-2 mb-1"
         },
         [
-          _vm._v("\n      Copyright © " + _vm._s(_vm.date) + "\n      "),
+          _vm._v("\n    Copyright © " + _vm._s(_vm.date) + "\n    "),
           _c(
             "a",
             {
@@ -33087,14 +33090,14 @@ var staticRenderFns = [
           "div",
           {
             staticClass:
-              "text-center flex-1 text-gray-700 text-2xl text-semiboldleading-none"
+              "text-center flex-1 text-gray-700 text-xl text-semiboldleading-none"
           },
           [
-            _c("p", { staticClass: "leading-tight" }, [
-              _vm._v("\n          Graphics+Design\n          "),
+            _c("p", { staticClass: "leading-tight font-myriad font-light" }, [
+              _vm._v("\n        Graphics+Design\n        "),
               _c("br"),
               _vm._v(" "),
-              _c("span", { staticClass: "italic text-xl line-height-none" }, [
+              _c("span", { staticClass: "italic text-base line-height-none" }, [
                 _vm._v('"Imaging at the Speed of Business"')
               ])
             ])
@@ -33103,45 +33106,51 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("hr", { staticClass: "border border-gray-500 mt-2 mb-2 sm:hidden" }),
         _vm._v(" "),
-        _c("div", { staticClass: "text-center flex-1 text-gray-700" }, [
-          _c("img", {
-            staticClass: "h-4 w-4 inline-block",
-            attrs: { src: "assets/icons/phone.svg", alt: "" }
-          }),
-          _vm._v("\n  813-254-9444\n        "),
-          _c("br"),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "h-4 w-4 inline-block",
-            attrs: { src: "assets/icons/fax.svg", alt: "" }
-          }),
-          _vm._v("\n 813-254-9445\n        "),
-          _c("br"),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "h-4 w-4 inline-block",
-            attrs: { src: "assets/icons/at.svg", alt: "" }
-          }),
-          _vm._v("\n output@g-d.com\n        "),
-          _c("br"),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "h-4 w-4 inline-block",
-            attrs: { src: "assets/icons/browser.svg", alt: "" }
-          }),
-          _vm._v("\n         www.g-d.com\n      ")
+        _c("div", { staticClass: "text-gray-700" }, [
+          _c(
+            "div",
+            { staticClass: "flex-1 text-center sm:text-left sm:items-center" },
+            [
+              _c("img", {
+                staticClass: "h-4 w-4 inline-block",
+                attrs: { src: "assets/icons/phone.svg", alt: "" }
+              }),
+              _vm._v("\n         813-254-9444\n        "),
+              _c("br"),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "h-4 w-4 inline-block",
+                attrs: { src: "assets/icons/fax.svg", alt: "" }
+              }),
+              _vm._v("\n         813-254-9445\n        "),
+              _c("br"),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "h-4 w-4 inline-block",
+                attrs: { src: "assets/icons/at.svg", alt: "" }
+              }),
+              _vm._v("\n         output@g-d.com\n        "),
+              _c("br"),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "h-4 w-4 inline-block",
+                attrs: { src: "assets/icons/browser.svg", alt: "" }
+              }),
+              _vm._v("\n         www.g-d.com\n      ")
+            ]
+          )
         ]),
         _vm._v(" "),
         _c("hr", { staticClass: "border border-gray-500 mt-2 mb-2 sm:hidden" }),
         _vm._v(" "),
         _c("div", { staticClass: "text-center flex-1 text-gray-700" }, [
-          _vm._v("\n        Graphics+Design\n        "),
+          _vm._v("\n      Graphics+Design\n      "),
           _c("br"),
-          _vm._v("A Division of AZC Enterprises, Inc.\n        "),
+          _vm._v("A Division of AZC Enterprises, Inc.\n      "),
           _c("br"),
-          _vm._v("1111 West Cass Street\n        "),
+          _vm._v("1111 West Cass Street\n      "),
           _c("br"),
-          _vm._v("Tampa, FL 33606\n      ")
+          _vm._v("Tampa, FL 33606\n    ")
         ])
       ]
     )
@@ -33172,7 +33181,7 @@ var render = function() {
     "header",
     {
       staticClass:
-        "bg-teal-400 opacity-75 md:flex md:justify-between md:items-center sm:px-4 sm:py-3"
+        "bg-teal-400 opacity-75 md:flex md:justify-between md:items-center sm:px-6 sm:py-4"
     },
     [
       _c(
@@ -33260,55 +33269,59 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "btn md:flex", attrs: { id: "primary" } }, [
-      _c("li", [
-        _c(
-          "a",
-          {
-            staticClass:
-              "block ml-2 mr-4 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800",
-            attrs: { href: "/aboutus" }
-          },
-          [_vm._v("About Us")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _c(
-          "a",
-          {
-            staticClass:
-              "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4",
-            attrs: { href: "services" }
-          },
-          [_vm._v("Services")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _c(
-          "a",
-          {
-            staticClass:
-              "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4",
-            attrs: { href: "sendfiles" }
-          },
-          [_vm._v("Sending Files")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _c(
-          "a",
-          {
-            staticClass:
-              "mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 md:mt-0 md:ml-4",
-            attrs: { href: "contactus" }
-          },
-          [_vm._v("Contact Us")]
-        )
-      ])
-    ])
+    return _c(
+      "ul",
+      { staticClass: "md:flex text-xs", attrs: { id: "primary" } },
+      [
+        _c("li", [
+          _c(
+            "a",
+            {
+              staticClass:
+                "block ml-2 mr-4 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800",
+              attrs: { href: "/aboutus" }
+            },
+            [_vm._v("About Us")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c(
+            "a",
+            {
+              staticClass:
+                "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4",
+              attrs: { href: "services" }
+            },
+            [_vm._v("Services")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c(
+            "a",
+            {
+              staticClass:
+                "ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4",
+              attrs: { href: "sendfiles" }
+            },
+            [_vm._v("Sending Files")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c(
+            "a",
+            {
+              staticClass:
+                "mt-1 mr-4 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 ml-2 md:mt-0 md:ml-4",
+              attrs: { href: "contactus" }
+            },
+            [_vm._v("Contact Us")]
+          )
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true

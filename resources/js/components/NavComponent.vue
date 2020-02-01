@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-teal-400 opacity-75 md:flex md:justify-between md:items-center sm:px-4 sm:py-3">
+    <header class="bg-teal-400 opacity-75 md:flex md:justify-between md:items-center sm:px-6 sm:py-4">
 
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
@@ -21,7 +21,7 @@
 
 
 
-      <ul id="primary" class="btn md:flex">
+      <ul id="primary" class="md:flex text-xs">
         <li><a href="/aboutus" class="block ml-2 mr-4 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">About Us</a></li>
         <li><a href="services" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4">Services</a></li>
         <li><a href="sendfiles" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4">Sending Files</a></li>

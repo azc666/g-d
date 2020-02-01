@@ -1,11 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,400,700);
-
 @import "tailwindcss/base";
+
+@import url("https://use.typekit.net/lln4snf.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 @import "tailwindcss/components";
 
 .btn {
-  @apply inline-block px-5 py-3 rounded-lg text-sm uppercase tracking-wider font-semibold;
+  @apply inline-block px-5 py-3 rounded-lg uppercase tracking-wider font-semibold;
 }
 .btn:focus {
   @apply outline-none shadow-outline;

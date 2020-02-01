@@ -3,7 +3,7 @@
 
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
-        <a href="/"><img class="h-8" src="/assets/g-d_logo_wht.gif" alt="G+D Logo"></a>
+        <a href="/"><img class="h-6 sm:h-8" src="/assets/g-d_logo_wht.gif" alt="G+D Logo"></a>
       </div>
 
       <div class="md:hidden">

@@ -33259,7 +33259,7 @@ var staticRenderFns = [
     return _c("div", [
       _c("a", { attrs: { href: "/" } }, [
         _c("img", {
-          staticClass: "h-8",
+          staticClass: "h-6 sm:h-8",
           attrs: { src: "/assets/g-d_logo_wht.gif", alt: "G+D Logo" }
         })
       ])

@@ -33049,7 +33049,10 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "footer",
-    { staticClass: "absolute w-full bottom-0 bg-teal-400 opacity-75" },
+    {
+      staticClass:
+        "absolute w-full z-1 inset-x-0 bottom-0 bg-teal-400 opacity-75"
+    },
     [
       _vm._m(0),
       _vm._v(" "),

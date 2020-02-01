@@ -1,5 +1,5 @@
 <template>
-  <footer class="absolute w-full bottom-0 bg-teal-400 opacity-75">
+  <footer class="absolute w-full z-1 inset-x-0 bottom-0 bg-teal-400 opacity-75">
     <div class="sm:flex items-center justify-around px-4 py-2 text-sm">
       <div class="text-center flex-1 text-gray-700 text-xl text-semiboldleading-none">
         <p class="leading-tight font-myriad font-light">

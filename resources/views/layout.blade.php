@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="bg-fixed bg-no-repeat bg-center bg-cover" style="background-image: url(./assets/tie-dye2.png)">
+<body class="bg-fixed bg-no-repeat bg-center bg-cover h-screen flex flex-col" style="background-image: url(./assets/tie-dye2.png)">
 
 <div id="app">
 <nav-component></nav-component>

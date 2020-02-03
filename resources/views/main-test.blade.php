@@ -38,7 +38,7 @@
       <div class="font-chicle text-4xl text-center">
         About Us
       </div>
-      <img class="h-auto w-full object-fill" src="/assets/posters/homeimg.webp" alt="">
+      <img class="h-auto w-full object-fill" src="/assets/posters/homeimg.jpg" alt="">
     </div>
 </div>
 
@@ -56,7 +56,7 @@
       <div class="font-chicle text-4xl text-center">
         Send Files
       </div>
-      <img class="h-auto w-full object-cover" src="/assets/posters/sendfiles.webp" alt="">
+      <img class="h-auto w-full object-cover" src="/assets/posters/sendfiles.jpg" alt="">
     </div>
     </div>
 
@@ -65,7 +65,7 @@
       <div class="font-chicle text-4xl text-center">
         Contact Us
       </div>
-      <img class="h-auto w-full object-cover" src="/assets/posters/sendfiles.webp" alt="">
+      <img class="h-auto w-full object-cover" src="/assets/posters/sendfiles.jpg" alt="">
     </div>
     </div>
 

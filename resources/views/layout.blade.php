@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="m-0 p-0 h-full">
 
 <head>
   <meta charset="UTF-8">
@@ -9,22 +9,27 @@
   <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
   <link rel="stylesheet" href="/css/app.css">
-
+{{-- <link rel="stylesheet" href="/css/footer.css"> --}}
 </head>
 
-<body class="bg-fixed bg-no-repeat bg-center bg-cover" style="background-image: url(./assets/tie-dye2.png)">
+<body id="body" class="relative m-0 pb-24 bg-fixed bg-no-repeat bg-center bg-cover" style="background-image: url(./assets/tie-dye2.png)">
 
-<div id="app">
-<nav-component></nav-component>
-</div>
+  <div class=”main-container min-h-100”>
 
-@yield('content')
+    </div>
+    <div id="app">
+      <nav-component></nav-component>
+    </div>
 
-<div id="app4">
-<footer-component></footer-component>
-</div>
+    @yield('content')
 
-<script src="/js/app.js"></script>
+    <div id="footer">
+      <footer-component></footer-component>
+    </div>
+
+  </div>
+
+  <script src="/js/app.js"></script>
 
 </body>
 

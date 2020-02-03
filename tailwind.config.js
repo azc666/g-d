@@ -5,6 +5,8 @@ module.exports = {
       'serif': ['Georgia', 'Cambria'],
       'mono': ['SFMono-Regular', 'Menlo'],
       'myriad': ['myriad-pro', 'sans-serif'],
+      'modak': ['Modak', 'cursive'],
+      'chicle': ['Chicle', 'cursive'],
     },
   },
   variants: {

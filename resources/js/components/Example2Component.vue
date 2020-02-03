@@ -1,16 +1,10 @@
 <template>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Example2 Component</div>
+        <div class="p-8 mt-5 sm:mt-10 mx-auto container background-trans border rounded-lg shadow-lg">
 
-                    <div class="card-body">
-                        I'm an example2 component.
-                    </div>
-                </div>
-            </div>
-        </div>
+  <img class="h-48 sm:h-64 w-full object-cover" src="/assets/G+D Building.png" alt="">
+
+</div>
     </div>
 </template>
 

@@ -1,4 +1,4 @@
-@import url(https://use.typekit.net/lln4snf.css);@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,400,700);@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+@import url(https://use.typekit.net/lln4snf.css);@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,400,700);@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);@import url(https://fonts.googleapis.com/css?family=Modak&display=swap&subset=latin-ext);@import url(https://fonts.googleapis.com/css?family=Chicle&display=swap);/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
@@ -668,6 +668,22 @@ video {
 
 .btn-gray:active {
   background-color: #a0aec0;
+}
+
+.main-container {
+  min-height: 100vh;
+  /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px;
+  /* height of your footer */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #primary li a {
@@ -4125,6 +4141,14 @@ video {
 
 .font-myriad{
   font-family: myriad-pro, sans-serif;
+}
+
+.font-modak{
+  font-family: Modak, cursive;
+}
+
+.font-chicle{
+  font-family: Chicle, cursive;
 }
 
 .font-hairline{
@@ -15316,6 +15340,14 @@ video {
 
   .sm\:font-myriad{
     font-family: myriad-pro, sans-serif;
+  }
+
+  .sm\:font-modak{
+    font-family: Modak, cursive;
+  }
+
+  .sm\:font-chicle{
+    font-family: Chicle, cursive;
   }
 
   .sm\:font-hairline{
@@ -26510,6 +26542,14 @@ video {
     font-family: myriad-pro, sans-serif;
   }
 
+  .md\:font-modak{
+    font-family: Modak, cursive;
+  }
+
+  .md\:font-chicle{
+    font-family: Chicle, cursive;
+  }
+
   .md\:font-hairline{
     font-weight: 100;
   }
@@ -37702,6 +37742,14 @@ video {
     font-family: myriad-pro, sans-serif;
   }
 
+  .lg\:font-modak{
+    font-family: Modak, cursive;
+  }
+
+  .lg\:font-chicle{
+    font-family: Chicle, cursive;
+  }
+
   .lg\:font-hairline{
     font-weight: 100;
   }
@@ -48892,6 +48940,14 @@ video {
 
   .xl\:font-myriad{
     font-family: myriad-pro, sans-serif;
+  }
+
+  .xl\:font-modak{
+    font-family: Modak, cursive;
+  }
+
+  .xl\:font-chicle{
+    font-family: Chicle, cursive;
   }
 
   .xl\:font-hairline{

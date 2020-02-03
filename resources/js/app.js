@@ -23,6 +23,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('example2-component', require('./components/Example2Component.vue').default);
 Vue.component('nav-component', require('./components/NavComponent.vue').default);
 Vue.component('footer-component', require('./components/FooterComponent.vue').default);
+Vue.component('footer2-component', require('./components/Footer2Component.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -34,13 +35,21 @@ const app = new Vue({
     el: '#app',
 });
 
-const app4 = new Vue({
-    el: '#app4',
+const footer = new Vue({
+    el: '#footer',
 });
 
-// const app3 = new Vue({
-//     el: '#app3'
-// });
+const footer2 = new Vue({
+    el: '#footer2',
+});
+
+const app5 = new Vue({
+    el: '#app5',
+});
+
+const app3 = new Vue({
+    el: '#app3'
+});
 
 // const app3 = new Vue ({
 //     el: '#app3',

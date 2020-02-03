@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('main');
+    return view('main-test');
 });
 
 Route::get('/aboutus', function () {
@@ -32,9 +32,13 @@ Route::get('/contactus', function () {
 });
 
 Route::get('/testing', function () {
-    return view('/testing');
+    return view('/not used/testing');
 });
 
 Route::get('/tw-card', function () {
-    return view('/tw-card');
+    return view('/not used/tw-card');
+});
+
+Route::get('/test-footer', function () {
+    return view('/not used/test-footer');
 });

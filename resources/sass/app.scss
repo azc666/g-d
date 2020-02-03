@@ -3,6 +3,8 @@
 @import url("https://use.typekit.net/lln4snf.css");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:200,400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Chicle&display=swap');
 
 @import "tailwindcss/components";
 
@@ -31,6 +33,20 @@
 }
 .btn-gray:active {
   @apply bg-gray-500;
+}
+
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
 }
 
 

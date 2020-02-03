@@ -47,7 +47,7 @@
       <div class="font-chicle text-4xl text-center">
         Services
       </div>
-      <img class="h-auto w-full object-cover" src="/assets/posters/services.webp" alt="">
+      <img class="h-auto w-full object-cover" src="/assets/posters/services.jpg" alt="">
     </div>
     </div>
 

@@ -737,6 +737,24 @@ footer {
   border-bottom: 3px #FFF solid;
 }
 
+.zoom {
+  padding: 2px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  /* Animation */
+  width: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  color: #1fbbc0;
+}
+
 .sr-only{
   position: absolute;
   width: 1px;

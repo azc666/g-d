@@ -125,8 +125,19 @@ $main-color: #1e91b4;
     border-bottom:3px #FFF solid;
     }
 
-// html, body {
-//   height: 100%;
-// }
+.zoom {
+  padding: 2px;
+  // background-color: green;
+  transition: transform .3s; /* Animation */
+  width: 200px;
+  // height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  color: rgb(31, 187, 192);
+}
+
 
 @import "tailwindcss/utilities";

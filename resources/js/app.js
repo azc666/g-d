@@ -22,8 +22,9 @@ window.Vue = require('vue');
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('example2-component', require('./components/Example2Component.vue').default);
 Vue.component('nav-component', require('./components/NavComponent.vue').default);
+Vue.component('navlanding-component', require('./components/NavLandingComponent.vue').default);
 Vue.component('footer-component', require('./components/FooterComponent.vue').default);
-Vue.component('footer2-component', require('./components/Footer2Component.vue').default);
+// Vue.component('footer2-component', require('./components/Footer2Component.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -31,16 +32,16 @@ Vue.component('footer2-component', require('./components/Footer2Component.vue').
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-const app = new Vue({
-    el: '#app',
+const nav = new Vue({
+    el: '#mainnav',
 });
 
 const footer = new Vue({
     el: '#footer',
 });
 
-const footer2 = new Vue({
-    el: '#footer2',
+const navLanding = new Vue({
+    el: '#navlanding',
 });
 
 const app5 = new Vue({

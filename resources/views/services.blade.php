@@ -5,7 +5,7 @@
 <body class="relative m-0 pb-48 min-h-full bg-fixed bg-no-repeat bg-center bg-cover"
   style="background-image: url(./assets/tie-dye2.png)">
 
-  <div id="app">
+  <div id="mainnav">
     <nav-component></nav-component>
   </div>
 

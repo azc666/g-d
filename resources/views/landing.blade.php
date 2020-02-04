@@ -5,11 +5,11 @@
 <body class="relative m-0 pb-48 min-h-full bg-fixed bg-no-repeat bg-center bg-cover"
   style="background-image: url(./assets/tie-dye2.png)">
 
-  {{-- <div id="app">
-    <nav-component></nav-component>
-  </div> --}}
+  <div id="navlanding">
+    <navlanding-component></navlanding-component>
+  </div>
 
-  <h1 class=" mt-3 sm:mt-6 text-4xl sm:text-6xl text-center font-myriad font-bold leading-tight">Graphics+Design</h1>
+  <h1 class=" mt-3 text-4xl sm:text-6xl text-center font-myriad font-bold leading-tight">Graphics+Design</h1>
   <h3 class="text-2xl sm:text-3xl text-center font-myriad italic">Imaging at the Speed of Business</h3>
 
   <div class="pb-6">

@@ -2,70 +2,73 @@
 
 @section('content')
 
-<body class="relative m-0 pb-48 min-h-full bg-fixed bg-no-repeat bg-center bg-cover"
-  style="background-image: url(./assets/tie-dye2.png)">
+{{-- <body class="relative m-0 pb-48 min-h-full bg-fixed bg-no-repeat bg-center bg-cover"
+  style="background-image: url(./assets/tie-dye2.png)"> --}}
 
-  <div id="mainnav">
-    <nav-component></nav-component>
+<div id="mainnav">
+  <nav-component></nav-component>
+</div>
+
+<div class="flex p-8 pb-2 mt-16 mx-auto container background-trans border rounded-lg shadow-lg">
+
+  <div class="flex container m-4">
+
+    <div class="w-1/4">
+      <img class="w-full mr-12" src="/assets/posters/services.jpg" alt="">
+    </div>
+
+    <div class="w-3/4">
+      <h1 class="text-6xl text-gray-800 pl-12 text-left font-chicle">
+        Our Services
+      </h1>
+      <h3 class="text-3xl text-gray-800 pl-12 text-left font-chicle">
+        Printing
+      </h3>
+      <p class="text-xl text-gray-700 m-12 mt-0 mb-6 font-myriad">
+        Our high-speed digital color press paired with our powerful RIPs, produces documents with world-class image quality. The
+        digital press is pantone certified and can accommodate heavy stocks. From direct mail projects using VDP (variable data
+        printing), to posters and short-run multi-page stitched booklets, you can expect faithful color for your photos, images
+        and text.
+
+        We have over 30 years experience in commercial offset printing, and have integrated our digital prepress expertise into
+        the printing processes. We maintain the highest quality production standards for products like business cards,
+        envelopes, stationery, brochures, flyers, carbonless sets, as well as other traditional business printing.
+      </p>
+      <h3 class="text-3xl text-gray-800 pl-12 text-left font-chicle">
+        Variable Data Printing
+      </h3>
+      <p class="text-xl text-gray-700 m-12 mt-0 mb-6 font-myriad">
+        VDP is the engine that automates the production of unique, relevant communications cross-media. These cross-media
+        campaigns motivate the recipients to take action. Create personalized direct mail with postcards, flyers, letters, or
+        virtually any marketing and sales promotional piece, that utilizes variable data and leads the recipient to their
+        personal URL microsite. VDP is also a cost effective solution for products such as numbered tickets, event passes or any
+        other item that requires personalization. Make more of an impact at your next event with less effort!
+      </p>
+      <h3 class="text-3xl text-gray-800 pl-12 text-left font-chicle">
+        Mailing Services
+      </h3>
+      <p class="text-xl text-gray-700 m-12 mt-0 mb-6 font-myriad">
+        We offer full mailing services including targeted lists to assist you in reaching your largest possible audience. Our
+        services include addressing, CASS certification, list de-dupe, route presort, NCOA updates, inserting and mail drop.
+        Also, you can expect to pay the lowest allowable postage rates!
+      </p>
+      <h3 class="text-3xl text-gray-800 pl-12 text-left font-chicle">
+        Large Format
+      </h3>
+      <p class="text-xl text-gray-700 m-12 mt-0 font-myriad">
+        This is the age of large color. Today, in order for your ideas to be effective, images must be big, bold, and colorful.
+        Our Archival compatible large format color prints and in-house laminating and mounting department can add that finishing
+        touch to your trade show exhibits, POP signage, backlit signage, vinyl banners and more. Let Graphics + Design help make
+        your BIG idea look great.
+      </p>
+
+
+    </div>
+
   </div>
 
-  <h1 class=" mt-3 sm:mt-6 text-4xl sm:text-6xl text-center font-myriad font-bold leading-tight">Services</h1>
-  <h3 class="text-2xl sm:text-3xl text-center font-myriad italic">Imaging at the Speed of Business</h3>
+</div>
 
-  <div class="pb-6">
-    <div class="p-8 mt-5 sm:mt-8 mx-auto container background-trans border rounded-lg shadow-lg">
-
-      <img class="h-48 sm:h-64 xl:h-300 w-full object-cover xl:object-none" src="/assets/G+D Building.png" alt="">
-
-    </div>
-  </div>
-
-  <div class="container pb-40 sm:pb-12 mx-auto flex flex-wrap">
-
-    <div class="flex-1 zoom">
-      <a href="/aboutus" class=" block hover:bg-transparent">
-        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-lg">
-          <div class="font-chicle text-4xl text-center">
-            About Us
-          </div>
-          <img class="h-auto w-full object-fill" src="/assets/posters/homeimg.jpg" alt="">
-        </div>
-      </a>
-    </div>
-
-    <div class="flex-1 zoom">
-      <a href="/services" class=" block hover:bg-transparent">
-        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-lg">
-          <div class="font-chicle text-4xl text-center">
-            Services
-          </div>
-          <img class="h-auto w-full object-cover" src="/assets/posters/services.jpg" alt="">
-        </div>
-      </a>
-    </div>
-
-    <div class="flex-1 zoom">
-      <a href="/sendfiles" class="hover:bg-transparent">
-        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-lg">
-          <div class="font-chicle text-4xl text-center">
-            Send Files
-          </div>
-          <img class="h-auto w-full object-cover" src="/assets/posters/sendfiles.jpg" alt="">
-        </div>
-      </a>
-    </div>
-
-    <div class="flex-1 zoom">
-      <a href="/contactus" class="hover:bg-transparent">
-        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-lg">
-          <div class="font-chicle text-4xl text-center">
-            Contact Us
-          </div>
-          <img class="h-auto w-full object-cover" src="/assets/posters/sendfiles.jpg" alt="">
-        </div>
-      </a>
-    </div>
-
-  </div>
+<div class="container pb-40 sm:pb-12 mx-auto flex flex-wrap">
 
   @endsection

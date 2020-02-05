@@ -2,26 +2,23 @@
 
 @section('content')
 
-{{-- <body class="relative m-0 pb-48 min-h-full bg-fixed bg-no-repeat bg-center bg-cover"
-  style="background-image: url(./assets/tie-dye2.png)"> --}}
-
   <div id="mainnav">
     <nav-component></nav-component>
   </div>
 
-  <div class="flex p-8 mt-16 mx-auto container background-trans border rounded-lg shadow-lg">
+  <div class="flex p-8 pb-0 sm:pb-8 sm:mt-12 mx-auto container background-trans border rounded-lg shadow-lg">
 
-    <div class="flex container m-4">
+    <div class="flex container m-0">
 
-      <div class="w-1/4">
-        <img class="w-full mr-12" src="/assets/posters/homeimg.jpg" alt="">
+      <div class="w-1 sm:w-1/4">
+        <img class="w-0 sm:w-full mr-12" src="/assets/posters/homeimg.jpg" alt="">
       </div>
 
-      <div class="w-3/4">
-        <h1 class="text-6xl text-gray-800 pl-12 text-left font-chicle">
+      <div class="w-full sm:w-3/4">
+        <h1 class="text-4xl md:text-6xl text-gray-800 sm:pl-12 text-center sm:text-left font-chicle">
           About Us
         </h1>
-        <p class="text-xl text-gray-700 m-12 mt-0 font-myriad">
+        <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 md:mb-16 sm:mr-6 font-myriad">
           Graphics + Design has been a leading service provider to the Tampa Bay Area since 1987, supplying pre-press
           services,
           printing, post-press services and large format color output. We also offer direct mail (static and variable)
@@ -30,10 +27,10 @@
           Text
           Campaigns), we can provide complete targeted marketing solutions.
         </p>
-        <h1 class="text-6xl text-gray-800 pl-12 text-left font-chicle">
+        <h1 class="text-4xl md:text-6xl text-gray-800 sm:pl-12 text-center sm:text-left font-chicle">
           Mission Statement
         </h1>
-        <p class="text-xl text-gray-700 m-12 mt-0">
+        <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-16 sm:mr-6 font-myriad">
           From company inception to the present, our mission has remained the same: To provide dependable, personalized
           service.
           Our philosophy is to treat your project as our own. With an emphasis on service, we strive for the best

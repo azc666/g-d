@@ -2096,6 +2096,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -33312,12 +33313,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("a", { attrs: { href: "/" } }, [
-        _c("img", {
-          staticClass: "h-6 sm:h-8",
-          attrs: { src: "/assets/g-d_logo_wht.gif", alt: "G+D Logo" }
-        })
-      ])
+      _c(
+        "a",
+        {
+          staticClass:
+            "h-6 sm:h-8 text-gray-100 text-2xl text-semibold hover:text-gray-700",
+          attrs: { href: "/" }
+        },
+        [_vm._v("Graphics+Design")]
+      )
     ])
   },
   function() {

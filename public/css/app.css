@@ -698,8 +698,8 @@ footer {
   z-index: 1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#1e91b4), color-stop(50%, #1e91b4), color-stop(50%, #fff));
-  background-image: linear-gradient(to right, #1e91b4, #1e91b4 50%, #fff 50%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#0c4152), color-stop(50%, #0c4152), color-stop(50%, #fff));
+  background-image: linear-gradient(to right, #0c4152, #0c4152 50%, #fff 50%);
   background-size: 200% 100%;
   background-position: -100%;
   -webkit-transition: all 0.3s ease-in-out;
@@ -716,7 +716,7 @@ footer {
   bottom: -3px;
   z-index: 0;
   position: absolute;
-  background: #1e91b4;
+  background: #0c4152;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }

@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+Services
+@endsection
+
 @section('content')
 
 <div id="mainnav">

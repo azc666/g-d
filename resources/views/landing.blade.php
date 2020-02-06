@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+G+D Home
+@endsection
+
 @section('content')
 
 <body class="relative m-0 pb-48 min-h-full bg-fixed bg-no-repeat bg-center bg-cover"

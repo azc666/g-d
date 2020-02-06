@@ -19,9 +19,7 @@
 <nav id="nav">
     <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 md:flex md:p-0">
 
-
-
-      <ul id="primary" class="sm:flex text-xs">
+      <ul id="primary" class="md:flex text-xs">
         <li><a href="/aboutus" class="block ml-2 mr-4 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">About Us</a></li>
         <li><a href="/services" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4">Services</a></li>
         <li><a href="/sendfiles" class="ml-2 mr-4 mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-4">Sending Files</a></li>

@@ -2096,8 +2096,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -33328,7 +33326,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "ul",
-      { staticClass: "sm:flex text-xs", attrs: { id: "primary" } },
+      { staticClass: "md:flex text-xs", attrs: { id: "primary" } },
       [
         _c("li", [
           _c(

@@ -733,8 +733,11 @@ footer {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.active {
-  border-bottom: 3px #FFF solid;
+#nav .active {
+  background-color: #87398a;
+  padding: 4px;
+  margin-bottom: 2px;
+  border-radius: 5px;
 }
 
 .zoom {

@@ -19,7 +19,7 @@ Services
     </div>
 
     <div class="w-full sm:w-3/4">
-      <h1 class="text-4xl sm:text-6xl text-gray-800 sm:pl-12 text-center sm:text-left font-chicle">
+      <h1 class="text-4xl sm:text-5xl text-gray-800 sm:pl-12 text-center sm:text-left font-chicle">
         Our Services
       </h1>
       <h3 class="text-2xl sm:text-3xl text-gray-800 sm:ml-12 text-left font-chicle">

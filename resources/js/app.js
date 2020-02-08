@@ -19,12 +19,10 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('example2-component', require('./components/Example2Component.vue').default);
 Vue.component('nav-component', require('./components/NavComponent.vue').default);
 Vue.component('navlanding-component', require('./components/NavLandingComponent.vue').default);
 Vue.component('footer-component', require('./components/FooterComponent.vue').default);
-// Vue.component('footer2-component', require('./components/Footer2Component.vue').default);
+Vue.component('contactform-component', require('./components/ContactFormComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -45,7 +43,7 @@ const navLanding = new Vue({
 });
 
 const app5 = new Vue({
-    el: '#app5',
+    el: '#contactus',
 });
 
 const app3 = new Vue({

@@ -31,7 +31,7 @@
           Text
           Campaigns), we can provide complete targeted marketing solutions.
         </p>
-        <h1 class="text-4xl sm:text-5xl text-gray-800 sm:pl-12 text-center sm:text-left font-chicle">
+        <h1 class="text-2xl sm:text-3xl text-gray-800 sm:pl-12 text-center sm:text-left font-chicle">
           Mission Statement
         </h1>
         <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-16 sm:mr-6 font-myriad">

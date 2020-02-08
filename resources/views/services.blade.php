@@ -56,7 +56,7 @@ Services
       <h3 class="text-2xl sm:text-3xl text-gray-800 sm:ml-12 text-left font-chicle">
         Large Format
       </h3>
-      <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-4 sm:mr-6 font-myriad">
+      <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-6 sm:mr-6 font-myriad">
         This is the age of large color. Today, in order for your ideas to be effective, images must be big, bold, and colorful.
         Our Archival compatible large format color prints and in-house laminating and mounting department can add that finishing
         touch to your trade show exhibits, POP signage, backlit signage, vinyl banners and more. Let Graphics + Design help make

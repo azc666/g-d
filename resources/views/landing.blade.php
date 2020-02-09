@@ -19,7 +19,7 @@ G+D Home
   <div class="pb-4 flex">
     <div class="p-2 mt-5 sm:mt-8 mx-auto container background-trans border rounded-lg shadow-2xl">
 
-      <img class="h-48 sm:h-64 w-full object-cover rounded" src="/assets/G+D Building2.png" alt="">
+      <img class="h-64 lg:h-xxl w-full object-cover rounded" src="/assets/G+D Building2.png" alt="">
 <span class="block pt-2 pr-2 mb-0 text-right text-sm sm:text-base text-gray-800 text-medium">The Home Office - Tampa, FL</span>
     </div>
   </div>

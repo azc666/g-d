@@ -13,14 +13,14 @@ G+D Home
     <navlanding-component></navlanding-component>
   </div>
 
-  <h1 class=" mt-3 text-4xl sm:text-6xl text-center font-myriad font-bold leading-tight">Graphics+Design</h1>
+  <h1 class=" mt-3 text-4xl sm:text-6xl text-center font-myriad font-bold tracking-tight">Graphics + Design</h1>
   <h3 class="text-2xl sm:text-3xl text-center font-myriad italic">Imaging at the Speed of Business</h3>
 
-  <div class="pb-6">
-    <div class="p-8 mt-5 sm:mt-8 mx-auto container background-trans border rounded-lg shadow-lg">
+  <div class="pb-4 flex">
+    <div class="p-2 mt-5 sm:mt-8 mx-auto container background-trans border rounded-lg shadow-2xl">
 
-      <img class="h-48 sm:h-64 xl:h-300 w-full object-cover xl:object-none" src="/assets/G+D Building.png" alt="">
-
+      <img class="h-48 sm:h-64 w-full object-cover rounded" src="/assets/G+D Building2.png" alt="">
+<span class="block pt-2 pr-2 mb-0 text-right text-sm sm:text-base text-gray-800 text-medium">The Home Office - Tampa, FL</span>
     </div>
   </div>
 
@@ -28,7 +28,7 @@ G+D Home
 
     <div class="flex-1 zoom">
       <a href="/aboutus" class=" block hover:bg-transparent">
-        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-lg">
+        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-2xl">
           <div class="font-chicle text-4xl text-center">
             About Us
           </div>
@@ -39,7 +39,7 @@ G+D Home
 
     <div class="flex-1 zoom">
       <a href="/services" class=" block hover:bg-transparent">
-        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-lg">
+        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-2xl">
           <div class="font-chicle text-4xl text-center">
             Services
           </div>
@@ -50,7 +50,7 @@ G+D Home
 
     <div class="flex-1 zoom">
       <a href="/sendfiles" class="hover:bg-transparent">
-        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-lg">
+        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-2xl">
           <div class="font-chicle text-4xl text-center">
             Send Files
           </div>
@@ -61,7 +61,7 @@ G+D Home
 
     <div class="flex-1 zoom">
       <a href="/contactus" class="hover:bg-transparent">
-        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-lg">
+        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-2xl">
           <div class="font-chicle text-4xl text-center">
             Contact Us
           </div>

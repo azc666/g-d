@@ -1,10 +1,10 @@
 <template>
-    <header class="bg-teal-400 opacity-75 sm:bg-transparent md:flex md:justify-between sm:items-center sm:px-6 sm:py-4">
+    <header class="bg-teal-400 opacity-75 sm:bg-transparent md:flex md:justify-between sm:items-center sm:px-6 sm:py-2">
 
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
-      <div >
-        <a href="/"><img class="h-6 sm:h-0" src="/assets/g-d_logo_wht.gif" alt="G+D Logo"></a>
-      </div>
+      <!-- <div >
+        <a href="/" class="h-6 sm:h-8 text-gray-100 text-xl text-semibold hover:text-gray-700">Graphics+Design</a>
+      </div> -->
 
       <div class="sm:hidden">
         <button @click="isOpen = !isOpen" type="button" class="block text-gray-200 hover:text-white focus:text-white focus:outline-none">

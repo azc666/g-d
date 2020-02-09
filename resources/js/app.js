@@ -23,12 +23,28 @@ Vue.component('nav-component', require('./components/NavComponent.vue').default)
 Vue.component('navlanding-component', require('./components/NavLandingComponent.vue').default);
 Vue.component('footer-component', require('./components/FooterComponent.vue').default);
 Vue.component('contactform-component', require('./components/ContactFormComponent.vue').default);
+Vue.component('map-component', require('./components/GoogleMapComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+
+import Vue from 'vue'
+import * as VueGoogleMaps from 'vue2-google-maps'
+
+Vue.use(VueGoogleMaps, {
+    load: {
+        key: 'AIzaSyDiqdTLaQL2lvS8H0e25g7Cyu2JkZBtias',
+        libraries: 'places'
+    },
+    installComponents: true
+});
+
+const app = new Vue({
+    el: "#map"
+})
 
 const nav = new Vue({
     el: '#mainnav',
@@ -50,57 +66,4 @@ const app3 = new Vue({
     el: '#app3'
 });
 
-// const app3 = new Vue ({
-//     el: '#app3',
-//     components: {
-//         DestinationCard,
-//     },
-//     data() {
-//         return {
-//             popularDestinations: [
-//                 {
-//                     city: 'Toronto',
-//                     averagePrice: 120,
-//                     propertyCount: 76,
-//                     imageUrl: '/img/toronto.jpg',
-//                     imageAlt: 'Toronto skyline',
-//                 },
-//                 {
-//                     city: 'Malibu',
-//                     averagePrice: 215,
-//                     propertyCount: 43,
-//                     imageUrl: '/img/malibu.jpg',
-//                     imageAlt: 'Cliff in Malibu',
-//                 },
-//                 {
-//                     city: 'Chicago',
-//                     averagePrice: 130,
-//                     propertyCount: 115,
-//                     imageUrl: '/img/chicago.jpg',
-//                     imageAlt: 'Chicago skyline',
-//                 },
-//                 {
-//                     city: 'Seattle',
-//                     averagePrice: 135,
-//                     propertyCount: 63,
-//                     imageUrl: '/img/seattle.jpg',
-//                     imageAlt: 'Seattle skyline',
-//                 },
-//                 {
-//                     city: 'Colorado',
-//                     averagePrice: 85,
-//                     propertyCount: 47,
-//                     imageUrl: '/img/colorado.jpg',
-//                     imageAlt: 'Lake in Colorado',
-//                 },
-//                 {
-//                     city: 'Miami',
-//                     averagePrice: 115,
-//                     propertyCount: 86,
-//                     imageUrl: '/img/miami.jpg',
-//                     imageAlt: 'Beach in Miami',
-//                 },
-//             ]
-//         }
-//     }
-// })
+

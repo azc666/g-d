@@ -8,6 +8,13 @@ module.exports = {
       'modak': ['Modak', 'cursive'],
       'chicle': ['Chicle', 'cursive'],
     },
+    height: {
+      sm: '8px',
+      md: '16px',
+      lg: '24px',
+      xl: '48px',
+      xxl: '500px',
+    }
   },
   variants: {
     backgroundColor: ['responsive', 'hover', 'focus', 'active'],

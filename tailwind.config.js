@@ -1,5 +1,10 @@
 module.exports = {
   theme: {
+    extend: {
+      width: {
+        '96': '24rem',
+      }
+    },
     fontFamily: {
       'sans': ['Roboto', '"Open+Sans"', '-apple-system', 'BlinkMacSystemFont'],
       'serif': ['Georgia', 'Cambria'],

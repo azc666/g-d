@@ -2226,17 +2226,9 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue2-google-maps/dist/components/map.vue?vue&type=style&index=0&lang=css& ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".vue-map-container {\n  position: relative;\n}\n.vue-map-container .vue-map {\n  left: 0; right: 0; top: 0; bottom: 0;\n  position: absolute;\n}\n.vue-map-hidden {\n  display: none;\n}\n", ""]);
-
-// exports
-
+throw new Error("Module build failed (from ./node_modules/postcss-loader/src/index.js):\n/Users/allen/Desktop/Code/sites/1804homestead/g-d/tailwind.config.js:4\n    fontFamily: {\n    ^^^^^^^^^^\n\nSyntaxError: Unexpected identifier\n    at new Script (vm.js:83:7)\n    at NativeCompileCache._moduleCompile (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:240:18)\n    at Module._compile (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:186:36)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Module.require (internal/modules/cjs/loader.js:690:17)\n    at require (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/tailwindcss/lib/index.js:67:122\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/tailwindcss/lib/processTailwindFeatures.js:32:20\n    at LazyResult.run (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:295:14)\n    at LazyResult.asyncTick (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:208:26)\n    at LazyResult.asyncTick (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:221:14)\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:250:14\n    at new Promise (<anonymous>)\n    at LazyResult.async (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:246:23)\n    at LazyResult.then (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:127:17)\n    at Promise.resolve.then.then (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss-loader/src/index.js:142:8)\n    at process._tickCallback (internal/process/next_tick.js:68:7)");
 
 /***/ }),
 
@@ -2245,104 +2237,9 @@ exports.push([module.i, ".vue-map-container {\n  position: relative;\n}\n.vue-ma
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue2-google-maps/dist/components/streetViewPanorama.vue?vue&type=style&index=0&lang=css& ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".vue-street-view-pano-container {\n  position: relative;\n}\n.vue-street-view-pano-container .vue-street-view-pano {\n  left: 0; right: 0; top: 0; bottom: 0;\n  position: absolute;\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/lib/css-base.js":
-/*!*************************************************!*\
-  !*** ./node_modules/css-loader/lib/css-base.js ***!
-  \*************************************************/
-/*! no static exports found */
 /***/ (function(module, exports) {
 
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-module.exports = function(useSourceMap) {
-	var list = [];
-
-	// return the list of modules as css string
-	list.toString = function toString() {
-		return this.map(function (item) {
-			var content = cssWithMappingToString(item, useSourceMap);
-			if(item[2]) {
-				return "@media " + item[2] + "{" + content + "}";
-			} else {
-				return content;
-			}
-		}).join("");
-	};
-
-	// import a list of modules into the list
-	list.i = function(modules, mediaQuery) {
-		if(typeof modules === "string")
-			modules = [[null, modules, ""]];
-		var alreadyImportedModules = {};
-		for(var i = 0; i < this.length; i++) {
-			var id = this[i][0];
-			if(typeof id === "number")
-				alreadyImportedModules[id] = true;
-		}
-		for(i = 0; i < modules.length; i++) {
-			var item = modules[i];
-			// skip already imported module
-			// this implementation is not 100% perfect for weird media query combinations
-			//  when a module is imported multiple times with different media queries.
-			//  I hope this will never occur (Hey this way we have smaller bundles)
-			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-				if(mediaQuery && !item[2]) {
-					item[2] = mediaQuery;
-				} else if(mediaQuery) {
-					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-				}
-				list.push(item);
-			}
-		}
-	};
-	return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-	var content = item[1] || '';
-	var cssMapping = item[3];
-	if (!cssMapping) {
-		return content;
-	}
-
-	if (useSourceMap && typeof btoa === 'function') {
-		var sourceMapping = toComment(cssMapping);
-		var sourceURLs = cssMapping.sources.map(function (source) {
-			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
-		});
-
-		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-	}
-
-	return [content].join('\n');
-}
-
-// Adapted from convert-source-map (MIT)
-function toComment(sourceMap) {
-	// eslint-disable-next-line no-undef
-	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
-
-	return '/*# ' + data + ' */';
-}
-
+throw new Error("Module build failed (from ./node_modules/postcss-loader/src/index.js):\n/Users/allen/Desktop/Code/sites/1804homestead/g-d/tailwind.config.js:4\n    fontFamily: {\n    ^^^^^^^^^^\n\nSyntaxError: Unexpected identifier\n    at new Script (vm.js:83:7)\n    at NativeCompileCache._moduleCompile (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:240:18)\n    at Module._compile (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:186:36)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Module.require (internal/modules/cjs/loader.js:690:17)\n    at require (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/tailwindcss/lib/index.js:67:122\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/tailwindcss/lib/processTailwindFeatures.js:32:20\n    at LazyResult.run (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:295:14)\n    at LazyResult.asyncTick (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:208:26)\n    at LazyResult.asyncTick (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:221:14)\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:250:14\n    at new Promise (<anonymous>)\n    at LazyResult.async (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:246:23)\n    at LazyResult.then (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:127:17)\n    at Promise.resolve.then.then (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss-loader/src/index.js:142:8)\n    at process._tickCallback (internal/process/next_tick.js:68:7)");
 
 /***/ }),
 
@@ -49817,7 +49714,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\n/Users/allen/Desktop/Code/sites/1804homestead/g-d/tailwind.config.js:4\n    fontFamily: {\n    ^^^^^^^^^^\n\nSyntaxError: Unexpected identifier\n    at new Script (vm.js:83:7)\n    at NativeCompileCache._moduleCompile (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:240:18)\n    at Module._compile (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:186:36)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Module.require (internal/modules/cjs/loader.js:690:17)\n    at require (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/tailwindcss/lib/index.js:67:122\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/tailwindcss/lib/processTailwindFeatures.js:32:20\n    at LazyResult.run (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:295:14)\n    at LazyResult.asyncTick (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:208:26)\n    at LazyResult.asyncTick (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:221:14)\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:250:14\n    at new Promise (<anonymous>)\n    at LazyResult.async (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:246:23)\n    at LazyResult.then (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:127:17)\n    at Promise.resolve.then.then (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss-loader/src/index.js:142:8)\n    at runLoaders (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/webpack/lib/NormalModule.js:316:20)\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Promise.resolve.then.then.catch (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss-loader/src/index.js:208:9)");
 
 /***/ }),
 

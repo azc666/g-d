@@ -13,9 +13,8 @@ Contact Us
 <div class="p-4 sm:mt-12 mx-auto container background-trans border rounded-lg shadow-2xl">
 
 <div class="flex">
-    <iframe class="rounded-lg shadow-2xl sm:flex-1 h-xxl mb-1"  frameborder="0" style=""
-  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwfFnBuFVaBQR0FFyUS7-9fY&key=AIzaSyDiqdTLaQL2lvS8H0e25g7Cyu2JkZBtias"
-  allowfullscreen></iframe>
+    <iframe class="rounded-lg shadow-2xl sm:flex-1 h-xxl mb-1" width: 100% frameborder="0" style=""
+  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwfFnBuFVaBQR0FFyUS7-9fY&key={{ env('GOOGLE_MAPS_KEY') }}" allowfullscreen></iframe>
 </div>
 
 </div>

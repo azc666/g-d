@@ -18,6 +18,9 @@ module.exports = {
       md: '16px',
       lg: '24px',
       xl: '48px',
+      lg: '100px',
+      lg4: '400px',
+      lg45: '450px',
       xxl: '500px',
     }
   },

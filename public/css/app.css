@@ -4287,11 +4287,15 @@ footer {
 }
 
 .h-lg{
-  height: 24px;
+  height: 100px;
 }
 
 .h-xl{
   height: 48px;
+}
+
+.h-lg4{
+  height: 400px;
 }
 
 .h-xxl{
@@ -15422,11 +15426,15 @@ footer {
   }
 
   .sm\:h-lg{
-    height: 24px;
+    height: 100px;
   }
 
   .sm\:h-xl{
     height: 48px;
+  }
+
+  .sm\:h-lg4{
+    height: 400px;
   }
 
   .sm\:h-xxl{
@@ -26558,11 +26566,15 @@ footer {
   }
 
   .md\:h-lg{
-    height: 24px;
+    height: 100px;
   }
 
   .md\:h-xl{
     height: 48px;
+  }
+
+  .md\:h-lg4{
+    height: 400px;
   }
 
   .md\:h-xxl{
@@ -37694,11 +37706,15 @@ footer {
   }
 
   .lg\:h-lg{
-    height: 24px;
+    height: 100px;
   }
 
   .lg\:h-xl{
     height: 48px;
+  }
+
+  .lg\:h-lg4{
+    height: 400px;
   }
 
   .lg\:h-xxl{
@@ -48830,11 +48846,15 @@ footer {
   }
 
   .xl\:h-lg{
-    height: 24px;
+    height: 100px;
   }
 
   .xl\:h-xl{
     height: 48px;
+  }
+
+  .xl\:h-lg4{
+    height: 400px;
   }
 
   .xl\:h-xxl{

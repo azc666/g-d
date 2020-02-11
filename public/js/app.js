@@ -33438,10 +33438,10 @@ var staticRenderFns = [
         "a",
         {
           staticClass:
-            "h-6 sm:h-8 text-gray-100 text-xl text-semibold hover:text-gray-700",
+            "h-6 sm:h-8 text-gray-100 text-xl text-semibold hover:text-gray-700 tracking-tight",
           attrs: { href: "/" }
         },
-        [_vm._v("Graphics+Design")]
+        [_vm._v("Graphics + Design")]
       )
     ])
   },
@@ -46197,7 +46197,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\n/Users/allen/Desktop/Code/sites/1804homestead/g-d/tailwind.config.js:24\n      xxl: '500px',\n      ^^^\n\nSyntaxError: Unexpected identifier\n    at new Script (vm.js:83:7)\n    at NativeCompileCache._moduleCompile (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:240:18)\n    at Module._compile (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:186:36)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Module.require (internal/modules/cjs/loader.js:690:17)\n    at require (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/tailwindcss/lib/index.js:67:122\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/tailwindcss/lib/processTailwindFeatures.js:32:20\n    at LazyResult.run (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:295:14)\n    at LazyResult.asyncTick (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:208:26)\n    at LazyResult.asyncTick (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:221:14)\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:250:14\n    at new Promise (<anonymous>)\n    at LazyResult.async (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:246:23)\n    at LazyResult.then (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss/lib/lazy-result.js:127:17)\n    at Promise.resolve.then.then (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss-loader/src/index.js:142:8)\n    at runLoaders (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/webpack/lib/NormalModule.js:316:20)\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Promise.resolve.then.then.catch (/Users/allen/Desktop/Code/sites/1804homestead/g-d/node_modules/postcss-loader/src/index.js:208:9)");
 
 /***/ }),
 

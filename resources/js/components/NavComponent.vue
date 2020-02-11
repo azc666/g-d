@@ -4,7 +4,7 @@
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
         <!-- <a href="/"><img class="h-6 sm:h-8 hover:bg-teal-300" src="/assets/g-d_logo_wht.gif" alt="G+D Logo"></a> -->
-        <a href="/" class="h-6 sm:h-8 text-gray-100 text-xl text-semibold hover:text-gray-700">Graphics+Design</a>
+        <a href="/" class="h-6 sm:h-8 text-gray-100 text-xl text-semibold hover:text-gray-700 tracking-tight">Graphics + Design</a>
       </div>
 
       <div class="md:hidden">

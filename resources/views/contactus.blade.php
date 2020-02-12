@@ -77,25 +77,9 @@ Contact Us
                 </label>
                 <input
                   class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-600 rounded py-2 px-4 -mb-2 leading-tight focus:outline-none focus:bg-white"
-                  id="grid-first-name" type="text" placeholder="subject">
+                  id="grid-first-name" type="text" placeholder="Subject of Your Message">
               </div>
             </div>
-
-            {{-- <div class="flex flex-wrap -mx-3 mb-6">
-              <div class="w-full px-3">
-                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-1" for="subject">
-                  Subject
-                  </label>
-                <select id="subject" class="block w-full bg-gray-200 text-gray-700 border border-gray-600 rounded py-2 px-4 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-10" style="box-sizing: border-box;">
-                  <option value="" disabled selected hidden><span class="text-gray-100 h-10">Select a Subject</span> </option>
-                  <option value="mr">General Inquiry</option>
-                  <option value="ms">Request an Estimate</option>
-                  <option value="ms">Technical Question</option>
-                  <option value="ms">Billing Question</option>
-                  <option value="ms">Words of Wisdom</option>
-                </select>
-              </div>
-            </div> --}}
 
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full px-3">
@@ -104,7 +88,7 @@ Contact Us
                 </label>
                 <textarea
                   class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-600 rounded py-1 px-2 pb-2 mb-2 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-xlg resize-none"
-                  id="message"></textarea>
+                  id="message" placeholder="Your Message"></textarea>
               </div>
             </div>
 
@@ -122,7 +106,7 @@ Contact Us
         </div>
       </div>
 
-      <br>
+      <br><br>
 <span class="italic">Note: Safari versions before Catalina may not display the Google Map.</span>
     </div>
   </div>

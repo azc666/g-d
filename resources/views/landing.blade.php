@@ -65,7 +65,7 @@ G+D Home
           <div class="font-chicle text-4xl text-center">
             Contact Us
           </div>
-          <img class="h-auto w-full object-cover" src="/assets/posters/sendfiles.jpg" alt="">
+          <img class="h-auto w-full object-cover" src="/assets/posters/contactus.jpg" alt="">
         </div>
       </a>
     </div>

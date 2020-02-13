@@ -4298,6 +4298,10 @@ footer {
   height: 400px;
 }
 
+.h-lg45{
+  height: 450px;
+}
+
 .h-xxl{
   height: 500px;
 }
@@ -15435,6 +15439,10 @@ footer {
 
   .sm\:h-lg4{
     height: 400px;
+  }
+
+  .sm\:h-lg45{
+    height: 450px;
   }
 
   .sm\:h-xxl{
@@ -26577,6 +26585,10 @@ footer {
     height: 400px;
   }
 
+  .md\:h-lg45{
+    height: 450px;
+  }
+
   .md\:h-xxl{
     height: 500px;
   }
@@ -37717,6 +37729,10 @@ footer {
     height: 400px;
   }
 
+  .lg\:h-lg45{
+    height: 450px;
+  }
+
   .lg\:h-xxl{
     height: 500px;
   }
@@ -48855,6 +48871,10 @@ footer {
 
   .xl\:h-lg4{
     height: 400px;
+  }
+
+  .xl\:h-lg45{
+    height: 450px;
   }
 
   .xl\:h-xxl{

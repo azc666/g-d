@@ -15,7 +15,7 @@ Contact Us
   <div class="flex container m-0">
 
     <div class="w-1 sm:w-1/4">
-      <img class="w-0 sm:w-full mr-12" src="/assets/posters/homeimg.jpg" alt="">
+      <img class="w-0 sm:w-full mr-12" src="/assets/posters/contactus.jpg" alt="">
     </div>
 
     <div class="w-full sm:w-3/4">
@@ -113,8 +113,7 @@ Contact Us
 
   <div class="flex">
     <iframe class="rounded-lg shadow-2xl sm:flex-1 h-xxl mt-1 mb-1" width: 100% frameborder="0" style=""
-      src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwfFnBuFVaBQR0FFyUS7-9fY&key={{ env('GOOGLE_MAPS_KEY') }}"
-      allowfullscreen></iframe>
+      src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwfFnBuFVaBQR0FFyUS7-9fY&key={{ env('GOOGLE_MAPS_KEY') }}" allowfullscreen></iframe>
   </div>
 
 </div>

@@ -42,7 +42,7 @@ Services
         <span class="block mb-2">Larger archives can easily be sent via your web browser:</span>
         <span
           class="sm:text-xl text-semibold bg-purple-200 border-purple-800 border-2 rounded-lg p-1 pl-2 pr-2 text-purple-700 hover:bg-purple-500 hover:text-purple-200"><a
-            href="https://files2.g-d.com">https://files2.g-d.com</a></span>
+            href="https://files2.g-d.com" target="_blank">https://files2.g-d.com</a></span>
         <span class="block mt-2">Use your assigned User Name and Password to log in. If you do not have a user name or
           password set up, please
           call us & we can set up one for you. Otherwise, you may use the Anonymous log in option. Please be sure to

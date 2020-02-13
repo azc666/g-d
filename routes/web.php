@@ -32,7 +32,7 @@ Route::get('/contactus', function () {
 });
 
 Route::get('/testing', function () {
-    return view('/not used/testing');
+    return view('/testing');
 });
 
 Route::get('/tw-card', function () {

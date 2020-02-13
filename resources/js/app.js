@@ -8,6 +8,18 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import Vue from "vue";
+import FormTestComponent from "./components/FormTestComponent.vue";
+import Vuelidate from "vuelidate";
+
+Vue.use(Vuelidate);
+Vue.config.productionTip = false;
+
+new Vue({
+    render: h => h(FormTestComponent)
+}).$mount("#app");
+
+
 
 
 /**
@@ -25,7 +37,7 @@ Vue.component('nav-component', require('./components/NavComponent.vue').default)
 Vue.component('navlanding-component', require('./components/NavLandingComponent.vue').default);
 Vue.component('footer-component', require('./components/FooterComponent.vue').default);
 Vue.component('contactform-component', require('./components/ContactFormComponent.vue').default);
-Vue.component('validateform-component', require('./components/FormTestComponent.vue').default);
+Vue.component('formtest-component', require('./components/FormTestComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -49,9 +61,9 @@ const app5 = new Vue({
     el: '#contactus',
 });
 
-const validate = new Vue({
+// const validate = new Vue({
 
-    el: '#validate'
-});
+//     el: '#app'
+// });
 
 

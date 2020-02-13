@@ -46,7 +46,7 @@ Contact Us
           </p>
         </div>
 
-        <div class="flex-2/3 mt-6 p-4 h-lg45 w-3/5 bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded">
+        <div class="flex-2/3 mt-6 p-4 h-56 w-3/5 bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded">
           <form class="w-full">
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full px-3 mb-0">
@@ -97,7 +97,7 @@ Contact Us
                 <button
                   class="shadow bg-teal-700 hover:bg-teal-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-2 w-full rounded"
                   type="button">
-                  <span class="uppercase">Submit the Inquiry</span>
+                  <span class="uppercase">Submit the Form</span>
                 </button>
               </div>
             </div>
@@ -106,8 +106,8 @@ Contact Us
         </div>
       </div>
 
-      <br><br>
-<span class="italic">Note: Safari versions before Catalina may not display the Google Map.</span>
+      <br><br><br>
+{{-- <span class="italic">Note: Safari versions before Catalina may not display the Google Map.</span> --}}
     </div>
   </div>
 

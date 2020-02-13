@@ -26,7 +26,7 @@ Services
         E-Mail
       </h3>
       <p class="text-base md:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-8 sm:mr-6 font-myriad">
-        <span class="block mb-2"> If the total archived size of your files are 5MB or under, we recommend sending via
+        <span class="block mb-2"> If the total archived size of your files is 5MB or under, we recommend sending via
           E-Mail to:</span>
         <span
           class="tsm:text-xl text-semibold bg-purple-200 border-purple-800 border-2 rounded-lg p-1 pl-2 pr-2 text-purple-700 hover:bg-purple-500 hover:text-purple-200"><a
@@ -58,7 +58,7 @@ Services
         limited to:
         Creative Cloud (InDesign, Photoshop & Illustrator)
         Microsoft Office (Word, Excel, PowerPoint.)
-        If you need help in formating your files for prduction, please give us a call at (813) 254-9444. Our
+        If you need help in formatting your files for production, please give us a call at (813) 254-9444. Our
         knowledgable staff
         will be happy to assist you!
       </p>

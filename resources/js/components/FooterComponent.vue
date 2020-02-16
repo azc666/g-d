@@ -12,20 +12,28 @@
       <hr class="border border-gray-500 mt-2 mb-2 sm:hidden" />
 
       <div class="text-gray-700">
+
         <div class="flex-1 text-center sm:text-left sm:items-center">
-          <img class="h-4 w-4 inline-block" src="assets/icons/phone.svg" alt />
-          &nbsp;813-254-9444
+
+          <!-- <img class="h-4 w-4 inline-block" src="assets/icons/phone.svg" alt="" />
+          &nbsp;813-254-9444 -->
+
+          <img class="inline-block"  style="width:16px; height:16px;" src="assets/icons/phone2.png" alt="" />&nbsp;
+          <a href="tel:8132549444" class="hover:text-gray-600">813-254-9444</a>
+
+
           <br />
 
-          <img class="h-4 w-4 inline-block" src="assets/icons/fax.svg" alt />
+          <img class="h-4 w-4 inline-block" src="assets/icons/fax.svg" alt="" />
           &nbsp;813-254-9445
           <br />
 
-          <img class="h-4 w-4 inline-block" src="assets/icons/at.svg" alt />
-          &nbsp;output@g-d.com
+          <img style="width:16px; height:16px;" class="inline-block" src="assets/icons/at2.png" alt="" />&nbsp;
+          <a href="mailto:output@g-d.com" class="hover:text-gray-600">output@g-d.com</a>
+
           <br />
 
-          <img class="h-4 w-4 inline-block" src="assets/icons/browser.svg" alt />
+          <img class="h-4 w-4 inline-block" src="assets/icons/browser.svg" alt="" />
           &nbsp;www.g-d.com
         </div>
       </div>
@@ -33,7 +41,7 @@
       <hr class="border border-gray-500 mt-2 mb-2 sm:hidden" />
 
       <div class="text-center flex-1 text-gray-700 pb-2 sm:pb-0">
-        Graphics +Design
+        Graphics + Design
         <br />A Division of AZC Enterprises, Inc.
         <br />1111 West Cass Street
         <br />Tampa, FL 33606

@@ -2102,6 +2102,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -33488,10 +33496,20 @@ var staticRenderFns = [
             { staticClass: "flex-1 text-center sm:text-left sm:items-center" },
             [
               _c("img", {
-                staticClass: "h-4 w-4 inline-block",
-                attrs: { src: "assets/icons/phone.svg", alt: "" }
+                staticClass: "inline-block",
+                staticStyle: { width: "16px", height: "16px" },
+                attrs: { src: "assets/icons/phone2.png", alt: "" }
               }),
-              _vm._v("\n         813-254-9444\n        "),
+              _vm._v(" \n        "),
+              _c(
+                "a",
+                {
+                  staticClass: "hover:text-gray-600",
+                  attrs: { href: "tel:8132549444" }
+                },
+                [_vm._v("813-254-9444")]
+              ),
+              _vm._v(" "),
               _c("br"),
               _vm._v(" "),
               _c("img", {
@@ -33502,10 +33520,20 @@ var staticRenderFns = [
               _c("br"),
               _vm._v(" "),
               _c("img", {
-                staticClass: "h-4 w-4 inline-block",
-                attrs: { src: "assets/icons/at.svg", alt: "" }
+                staticClass: "inline-block",
+                staticStyle: { width: "16px", height: "16px" },
+                attrs: { src: "assets/icons/at2.png", alt: "" }
               }),
-              _vm._v("\n         output@g-d.com\n        "),
+              _vm._v(" \n        "),
+              _c(
+                "a",
+                {
+                  staticClass: "hover:text-gray-600",
+                  attrs: { href: "mailto:output@g-d.com" }
+                },
+                [_vm._v("output@g-d.com")]
+              ),
+              _vm._v(" "),
               _c("br"),
               _vm._v(" "),
               _c("img", {
@@ -33523,7 +33551,7 @@ var staticRenderFns = [
           "div",
           { staticClass: "text-center flex-1 text-gray-700 pb-2 sm:pb-0" },
           [
-            _vm._v("\n      Graphics +Design\n      "),
+            _vm._v("\n      Graphics + Design\n      "),
             _c("br"),
             _vm._v("A Division of AZC Enterprises, Inc.\n      "),
             _c("br"),

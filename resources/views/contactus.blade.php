@@ -48,10 +48,10 @@ Contact Us
 
             <br>
 
-            <div class="flex justify-around mx-auto -mt-2 md:mt-4 xl:mt-6 mb-3 sm:mb-10 xl:mx-24">
+            <div class="flex justify-around mx-auto -mt-2 md:mt-4 xl:mt-6 mb-3 xl:mx-24">
 
-              <span class="flex sm:flex md:pb-2 sm:text-base md:text-xl">
-                <img class="h-4 w-4" src="assets/icons/phone.svg" alt=""/>&nbsp;
+              <span class="flex md:pb-2 sm:text-base md:text-xl">
+                <img style="width:24px; height:24px;" class="" src="assets/icons/phone2.png" alt=""/>&nbsp;
                 <a href="tel:8132549444" class="hover:text-gray-600">813-254-9444</a>
               </span>
 
@@ -61,7 +61,7 @@ Contact Us
               </span> --}}
 
               <span class="flex sm:flex md:pb-2 sm:text-base md:text-xl">
-                <img class="h-4 w-4" src="assets/icons/at.svg" alt=""/>&nbsp;
+                <img style="width:24px; height:24px;" class="" src="assets/icons/at2.png" alt=""/>&nbsp;
                 <a href="mailto:output@g-d.com" class="hover:text-gray-600">output@g-d.com</a>
               </span>
 

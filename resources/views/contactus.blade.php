@@ -51,7 +51,7 @@ Contact Us
 
               <span class="flex items-center md:flex md:pb-2">
                 <img class="h-4 w-4" src="assets/icons/phone.svg" alt=""/>&nbsp;&nbsp;
-                <a href="tel:8133346656" class="hover:text-gray-600">813-254-9444</a>
+                <a href="tel:8132549444" class="hover:text-gray-600">813-254-9444</a>
               </span>
 
               <span class="flex items-center md:flex md:pb-2">

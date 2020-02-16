@@ -10,7 +10,7 @@
     <nav-component></nav-component>
   </div>
 
-  <div class="flex p-8 pb-0 sm:pb-8 sm:mt-12 mx-auto xl:mx-12 container background-trans border rounded-lg shadow-lg">
+  <div class="flex p-8 pb-0 sm:pb-2 md:-mb-6 sm:mt-12 mx-auto container background-trans border rounded-lg shadow-lg">
 
     <div class="flex container m-0">
 

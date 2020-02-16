@@ -1,7 +1,7 @@
 <template>
   <div id="validate">
     <div
-      class="flex-2/3 mx-auto mt-2 px-2 2xl:ml-30 pb-6 pt-0 h-56 sm:w-96 lg:w-122 2xl:w-122 bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded">
+      class="flex-2/3 sm:-ml-24 md:ml-8 lg:ml-16 2xl:ml-16 mx-auto mt-2 md:mt-0 px-2 pb-6 pt-0 h-56 sm:w-108 lg:w-122 xl:w-650 2xl:w- bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded">
 
       <form class="w-full">
         <div class="flex flex-wrap -mx-3 mb-6">
@@ -94,7 +94,7 @@
         <div class="md:flex md:justify-center">
               <div class="md:w-full">
           <button @click.prevent="submitForm" class="submit  shadow bg-teal-700 hover:bg-teal-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-2 w-full rounded" type="button">
-            <span class="uppercase">Submit the Form</span>
+            <span class="uppercase">Send the Message</span>
             </button>
           <p v-if="errors" class="error">
             The form above has errors,

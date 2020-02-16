@@ -603,15 +603,15 @@ video {
   width: 100%;
 }
 
-@media (min-width: 375){
+@media (min-width: 375px){
   .container{
-    max-width: 375;
+    max-width: 375px;
   }
 }
 
-@media (min-width: 414){
+@media (min-width: 414px){
   .container{
-    max-width: 414;
+    max-width: 414px;
   }
 }
 
@@ -11761,7 +11761,7 @@ footer {
 }
 
 .w-30{
-  width: 7rem;
+  width: 112px;
 }
 
 .w-32{
@@ -11785,23 +11785,27 @@ footer {
 }
 
 .w-72{
-  width: 20rem;
+  width: 320px;
 }
 
 .w-96{
-  width: 24rem;
+  width: 384px;
 }
 
 .w-108{
-  width: 30rem;
+  width: 480px;
 }
 
 .w-116{
-  width: 34rem;
+  width: 544px;
 }
 
 .w-122{
-  width: 38rem;
+  width: 608px;
+}
+
+.w-650{
+  width: 650px;
 }
 
 .w-auto{
@@ -22932,7 +22936,7 @@ footer {
   }
 
   .sm\:w-30{
-    width: 7rem;
+    width: 112px;
   }
 
   .sm\:w-32{
@@ -22956,23 +22960,27 @@ footer {
   }
 
   .sm\:w-72{
-    width: 20rem;
+    width: 320px;
   }
 
   .sm\:w-96{
-    width: 24rem;
+    width: 384px;
   }
 
   .sm\:w-108{
-    width: 30rem;
+    width: 480px;
   }
 
   .sm\:w-116{
-    width: 34rem;
+    width: 544px;
   }
 
   .sm\:w-122{
-    width: 38rem;
+    width: 608px;
+  }
+
+  .sm\:w-650{
+    width: 650px;
   }
 
   .sm\:w-auto{
@@ -34104,7 +34112,7 @@ footer {
   }
 
   .md\:w-30{
-    width: 7rem;
+    width: 112px;
   }
 
   .md\:w-32{
@@ -34128,23 +34136,27 @@ footer {
   }
 
   .md\:w-72{
-    width: 20rem;
+    width: 320px;
   }
 
   .md\:w-96{
-    width: 24rem;
+    width: 384px;
   }
 
   .md\:w-108{
-    width: 30rem;
+    width: 480px;
   }
 
   .md\:w-116{
-    width: 34rem;
+    width: 544px;
   }
 
   .md\:w-122{
-    width: 38rem;
+    width: 608px;
+  }
+
+  .md\:w-650{
+    width: 650px;
   }
 
   .md\:w-auto{
@@ -45276,7 +45288,7 @@ footer {
   }
 
   .lg\:w-30{
-    width: 7rem;
+    width: 112px;
   }
 
   .lg\:w-32{
@@ -45300,23 +45312,27 @@ footer {
   }
 
   .lg\:w-72{
-    width: 20rem;
+    width: 320px;
   }
 
   .lg\:w-96{
-    width: 24rem;
+    width: 384px;
   }
 
   .lg\:w-108{
-    width: 30rem;
+    width: 480px;
   }
 
   .lg\:w-116{
-    width: 34rem;
+    width: 544px;
   }
 
   .lg\:w-122{
-    width: 38rem;
+    width: 608px;
+  }
+
+  .lg\:w-650{
+    width: 650px;
   }
 
   .lg\:w-auto{
@@ -56448,7 +56464,7 @@ footer {
   }
 
   .xl\:w-30{
-    width: 7rem;
+    width: 112px;
   }
 
   .xl\:w-32{
@@ -56472,23 +56488,27 @@ footer {
   }
 
   .xl\:w-72{
-    width: 20rem;
+    width: 320px;
   }
 
   .xl\:w-96{
-    width: 24rem;
+    width: 384px;
   }
 
   .xl\:w-108{
-    width: 30rem;
+    width: 480px;
   }
 
   .xl\:w-116{
-    width: 34rem;
+    width: 544px;
   }
 
   .xl\:w-122{
-    width: 38rem;
+    width: 608px;
+  }
+
+  .xl\:w-650{
+    width: 650px;
   }
 
   .xl\:w-auto{
@@ -56640,7 +56660,7 @@ footer {
   }
 }
 
-@media (min-width: 375){
+@media (min-width: 375px){
   .xxs\:sr-only{
     position: absolute;
     width: 1px;
@@ -67620,7 +67640,7 @@ footer {
   }
 
   .xxs\:w-30{
-    width: 7rem;
+    width: 112px;
   }
 
   .xxs\:w-32{
@@ -67644,23 +67664,27 @@ footer {
   }
 
   .xxs\:w-72{
-    width: 20rem;
+    width: 320px;
   }
 
   .xxs\:w-96{
-    width: 24rem;
+    width: 384px;
   }
 
   .xxs\:w-108{
-    width: 30rem;
+    width: 480px;
   }
 
   .xxs\:w-116{
-    width: 34rem;
+    width: 544px;
   }
 
   .xxs\:w-122{
-    width: 38rem;
+    width: 608px;
+  }
+
+  .xxs\:w-650{
+    width: 650px;
   }
 
   .xxs\:w-auto{
@@ -67812,7 +67836,7 @@ footer {
   }
 }
 
-@media (min-width: 414){
+@media (min-width: 414px){
   .xs\:sr-only{
     position: absolute;
     width: 1px;
@@ -78792,7 +78816,7 @@ footer {
   }
 
   .xs\:w-30{
-    width: 7rem;
+    width: 112px;
   }
 
   .xs\:w-32{
@@ -78816,23 +78840,27 @@ footer {
   }
 
   .xs\:w-72{
-    width: 20rem;
+    width: 320px;
   }
 
   .xs\:w-96{
-    width: 24rem;
+    width: 384px;
   }
 
   .xs\:w-108{
-    width: 30rem;
+    width: 480px;
   }
 
   .xs\:w-116{
-    width: 34rem;
+    width: 544px;
   }
 
   .xs\:w-122{
-    width: 38rem;
+    width: 608px;
+  }
+
+  .xs\:w-650{
+    width: 650px;
   }
 
   .xs\:w-auto{
@@ -89964,7 +89992,7 @@ footer {
   }
 
   .\32xl\:w-30{
-    width: 7rem;
+    width: 112px;
   }
 
   .\32xl\:w-32{
@@ -89988,23 +90016,27 @@ footer {
   }
 
   .\32xl\:w-72{
-    width: 20rem;
+    width: 320px;
   }
 
   .\32xl\:w-96{
-    width: 24rem;
+    width: 384px;
   }
 
   .\32xl\:w-108{
-    width: 30rem;
+    width: 480px;
   }
 
   .\32xl\:w-116{
-    width: 34rem;
+    width: 544px;
   }
 
   .\32xl\:w-122{
-    width: 38rem;
+    width: 608px;
+  }
+
+  .\32xl\:w-650{
+    width: 650px;
   }
 
   .\32xl\:w-auto{

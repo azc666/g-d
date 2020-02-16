@@ -1,7 +1,7 @@
 <template>
   <div id="validate">
     <div
-      class="flex-2/3 sm:-ml-24 md:ml-8 lg:ml-16 2xl:ml-16 mx-auto mt-2 md:mt-0 px-2 pb-6 pt-0 h-56 sm:w-108 lg:w-122 xl:w-650 2xl:w- bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded">
+      class="flex-2/3 sm:-ml-24 md:ml-8 lg:ml-16 xl:ml-32 2xl:ml-16 mx-auto mt-2 md:mt-0 px-2 pb-6 pt-0 h-56 sm:w-108 lg:w-122 xl:w-650 2xl:w- bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded">
 
       <form class="w-full">
         <div class="flex flex-wrap -mx-3 mb-6">

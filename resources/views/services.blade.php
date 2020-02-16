@@ -10,7 +10,7 @@ Services
   <nav-component></nav-component>
 </div>
 
-<div class="flex p-8 pb-0 sm:pb-2 sm:mt-12 mx-auto container background-trans border rounded-lg shadow-lg">
+<div class="flex flex p-8 -mt-6 sm:mt-8 sm:-mb-12 mx-auto lg:mx-12 container background-trans border rounded-lg shadow-lg">
 
   <div class="flex container m-0">
 
@@ -19,10 +19,10 @@ Services
     </div>
 
     <div class="w-full sm:w-3/4">
-      <h1 class="text-4xl sm:text-5xl text-gray-800 sm:pl-12 text-center sm:text-left font-chicle">
+      <h1 class="text-4xl text-gray-800 sm:pl-12 text-center sm:text-left font-chicle">
         Our Services
       </h1>
-      <h3 class="text-2xl sm:text-3xl text-gray-800 sm:ml-12 text-left font-chicle">
+      <h3 class="text-2xl text-gray-800 sm:ml-12 text-left font-chicle">
         Printing
       </h3>
       <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-4 sm:mr-6 font-myriad">
@@ -35,7 +35,7 @@ Services
         the printing processes. We maintain the highest quality production standards for products like business cards,
         envelopes, stationery, brochures, flyers, carbonless sets, as well as other traditional business printing.
       </p>
-      <h3 class="text-2xl sm:text-3xl text-gray-800 sm:ml-12 text-left font-chicle">
+      <h3 class="text-2xl text-gray-800 sm:ml-12 text-left font-chicle">
         Variable Data Printing
       </h3>
       <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-4 sm:mr-6 font-myriad">
@@ -45,7 +45,7 @@ Services
         personal URL microsite. VDP is also a cost effective solution for products such as numbered tickets, event passes or any
         other item that requires personalization. Make more of an impact at your next event with less effort!
       </p>
-      <h3 class="text-2xl sm:text-3xl text-gray-800 sm:ml-12 text-left font-chicle">
+      <h3 class="text-2xl text-gray-800 sm:ml-12 text-left font-chicle">
         Mailing Services
       </h3>
       <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-4 sm:mr-6 font-myriad">
@@ -53,10 +53,10 @@ Services
         services include addressing, CASS certification, list de-dupe, route presort, NCOA updates, inserting and mail drop.
         Also, you can expect to pay the lowest allowable postage rates!
       </p>
-      <h3 class="text-2xl sm:text-3xl text-gray-800 sm:ml-12 text-left font-chicle">
+      <h3 class="text-2xl text-gray-800 sm:ml-12 text-left font-chicle">
         Large Format
       </h3>
-      <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-6 sm:mr-6 font-myriad">
+      <p class="text-base sm:text-xl text-gray-700 sm:ml-12 pb-8 sm:mr-6 font-myriad">
         This is the age of large color. Today, in order for your ideas to be effective, images must be big, bold, and colorful.
         Our Archival compatible large format color prints and in-house laminating and mounting department can add that finishing
         touch to your trade show exhibits, POP signage, backlit signage, vinyl banners and more. Let Graphics + Design help make

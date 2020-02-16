@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-About Us
+testing
 @endsection
 
 @section('content')
@@ -15,7 +15,7 @@ About Us
 
 
 
-<div id="app">
+<div id="validate">
   <formtest-component></formtest-component>
 </div>
 

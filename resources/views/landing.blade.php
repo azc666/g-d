@@ -17,14 +17,14 @@ G+D Home
   <h3 class="mt-0 text-2xl sm:text-3xl text-center font-myriad italic">Imaging at the Speed of Business</h3>
 
   <div class="pb-4 flex">
-    <div class="p-2 mt-5 sm:mt-8 mx-auto container background-trans border rounded-lg shadow-2xl">
+    <div class="p-2 lg:mx-12 xl:mx-24 mt-5 sm:mt-8 mx-auto container background-trans border rounded-lg shadow-2xl">
 
       <img class="h-48 lg:h-xxl w-full object-cover rounded" src="/assets/G+D Building2.png" alt="">
 <span class="block pt-2 pr-2 mb-0 text-right text-sm sm:text-base text-gray-800 text-medium">The Home Office - Tampa, FL</span>
     </div>
   </div>
 
-  <div class="container pb-40 sm:pb-12 mx-auto flex flex-wrap">
+  <div class="container pb-0 sm:pb-0 mx-auto flex flex-wrap">
 
     <div class="flex-1 zoom">
       <a href="/aboutus" class=" block hover:bg-transparent">
@@ -61,7 +61,7 @@ G+D Home
 
     <div class="flex-1 zoom">
       <a href="/contactus" class="hover:bg-transparent">
-        <div class="w-48 p-2 mt-3 sm:mt-8 mx-auto background-trans border rounded-lg shadow-2xl">
+        <div class="w-48 p-2 mt-3 mb-48 sm:mb-0 sm:mt-8 mx-auto background-trans border rounded-lg shadow-2xl">
           <div class="font-chicle text-4xl text-center">
             Contact Us
           </div>

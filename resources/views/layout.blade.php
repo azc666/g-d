@@ -13,8 +13,10 @@
   <link rel="stylesheet" href="/css/app.css">
 </head>
 
-<body class="relative m-0 pb-48 min-h-screen bg-fixed bg-no-repeat bg-center bg-cover"
-  style="background-image: url(./assets/tie-dye2.png)">
+{{-- <body class="relative mb-auto bg-fixed bg-no-repeat bg-center bg-cover min-h-screen"
+  style="background-image: url(./assets/tie-dye2.png)"> --}}
+  <body class="relative m-0 pb-48 min-h-screen bg-fixed bg-no-repeat bg-center bg-cover"
+    style="background-image: url(./assets/tie-dye2.png)">
 
   @yield('content')
 

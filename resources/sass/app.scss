@@ -144,5 +144,13 @@ $main-color: #0c4152;
   color: rgb(31, 187, 192);
 }
 
+.multiline {
+   white-space: pre-wrap;
+}
+
+.no-multiline {
+  white-space: normal;
+}
+
 
 @import "tailwindcss/utilities";

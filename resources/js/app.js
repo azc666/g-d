@@ -17,7 +17,7 @@ Vue.config.productionTip = false;
 
 new Vue({
     render: h => h(FormTestComponent)
-}).$mount("#app");
+}).$mount("#validate");
 
 
 

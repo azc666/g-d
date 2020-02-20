@@ -14,7 +14,7 @@
               id="fname"
 
               class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-600 rounded py-2 px-4 -mb-2 leading-tight focus:outline-none focus:bg-white"
-              
+
               v-model="$v.formResponses.name.$model"
               type="text"
               placeholder="John Lennon"
@@ -160,21 +160,7 @@ export default {
         minLength: minLength(12)
       }
 
-      // password1: {
-      //   required,
-      //   strongPassword(password1) {
-      //     return (
-      //       /[a-z]/.test(password1) && //checks for a-z
-      //       /[0-9]/.test(password1) && //checks for 0-9
-      //       /\W|_/.test(password1) && //checks for special char
-      //       password1.length >= 8
-      //     );
-      //   }
-      // },
-      // password2: {
-      //   required,
-      //   sameAsPassword: sameAs("password1")
-      // }
+      
     }
   },
   methods: {

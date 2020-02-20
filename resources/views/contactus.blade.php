@@ -73,8 +73,8 @@ Contact Us
 
 
 
-        <div id="validate">
-          <formtest-component></formtest-component>
+        <div id="vuelidate">
+          <vuelidatetest-component></vuelidatetest-component>
         </div>
       </div>
 

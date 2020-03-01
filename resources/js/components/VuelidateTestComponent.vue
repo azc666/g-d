@@ -1,9 +1,10 @@
 <template>
-  <div id="validate">
+  <div>
     <div
       class="flex-2/3 sm:-ml-24 md:ml-8 lg:ml-16 xl:ml-32 2xl:ml-16 mx-auto mt-2 sm:mt-8 md:mt-0 px-2 pb-6 pt-0 h-56 sm:w-108 lg:w-122 xl:w-650 2xl:w- bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded"
     >
-      <form class="w-full" @submit.prevent="submit">
+      <form method="POST" class="w-full" @submit.prevent="submit" action="/contactus">
+
         <div class="input flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3 pt-2 -mb-2 { 'form-group--error': $v.name.$error }">
             <label
@@ -136,7 +137,7 @@
             </button>
 
             <p
-              class="text-green-700 text-xl pt-1"
+              class="text-green-700 text-xl pt-2"
               v-if="submitStatus === 'OK'"
             >Thanks for your submission!</p>
             <p
@@ -150,20 +151,18 @@
             >The form is empty&nbsp;!
                 <br />You can't submit an empty form.
             </p>
-            <p class="text-green-700 text-xl" v-if="submitStatus === 'PENDING'">Sending...
+            <p class="text-green-700 text-xl pt-2" v-if="submitStatus === 'PENDING'">Sending...
             </p>
           </div>
         </div>
       </form>
 
-      <!-- <div class="validators">
-        <pre>{{$v}}</pre>
-      </div> -->
     </div>
   </div>
 </template>
 
 <script>
+
 import {
   required,
   email,
@@ -183,21 +182,28 @@ export default {
   },
   methods: {
     submit() {
-      console.log("submit!");
-      this.$v.$touch();
-      if (this.name.length === 0 && this.email.length === 0 && this.subject.length === 0 && this.message.length === 0) {
-        this.submitStatus = "EMPTY";
-        // console.log('empty');
-      } else if (this.$v.$invalid) {
-        this.submitStatus = "ERROR";
-      } else {
-        // do your submit logic here
-        console.log('sub');
+
+        axios.post('contactus/',
+          {
+            name: this.name,
+            email: this.email,
+            subject: this.subject,
+            message: this.message,
+          })
+
+        .then(function (response) {
+          window.location.replace('/contact-response');
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+
+        // console.log(this.name, this.email);
+
         this.submitStatus = "PENDING";
         setTimeout(() => {
           this.submitStatus = "OK";
         }, 500);
-      }
     }
   },
 

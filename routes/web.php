@@ -11,6 +11,8 @@
 |
 */
 
+// Route::get('/', 'PageController@index')->name('home');
+
 Route::get('/', function () {
     return view('landing');
 });
@@ -27,18 +29,30 @@ Route::get('/sendfiles', function () {
     return view('sendfiles');
 });
 
-Route::get('/contactus', function () {
-    return view('contactus');
-});
+// Route::get('/contactus', function () {
+//     return view('contactus');
+// });
 
-Route::get('/testing', function () {
-    return view('/testing');
-});
+Route::get('/contactus', 'PageController@contact')->name('contact');
+Route::post('/contactus', 'PageController@sendContact');
+Route::get('/contact-response', 'PageController@contactResponse');
 
-Route::get('/tw-card', function () {
-    return view('/not used/tw-card');
-});
+// Route::get('/testing', function () {
+//     return view('/testing');
+// });
 
-Route::get('/test-footer', function () {
-    return view('/not used/test-footer');
-});
+// Route::get('/tw-card', function () {
+//     return view('/not used/tw-card');
+// });
+
+// Route::get('/test-footer', function () {
+//     return view('/not used/test-footer');
+// });
+
+// Route::get('/contact-form', function () {
+//     return view('/contact-form');
+// });
+// Route::post('/submit', 'ContactFormController@submit');
+
+// Route::get('/contact', 'PageController@contact')->name('contact');
+// Route::post('/contact', 'PageController@sendContact');

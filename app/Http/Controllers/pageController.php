@@ -16,7 +16,7 @@ class pageController extends Controller
 
     public function contact()
     {
-        return view('contactus');
+        return view('/contactus');
     }
 
     public function sendContact(Request $request)

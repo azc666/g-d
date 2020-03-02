@@ -80,7 +80,7 @@ Contact Us
 
   <div id="map" class="flex">
     <iframe class="rounded-lg shadow-2xl flex-1 h-xxl -mt-6 -mb-12 sm:-mb-2" frameborder="0" style=""
-      src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwfFnBuFVaBQR0FFyUS7-9fY&key={{ env('GOOGLE_MAPS_KEY') }}"
+      src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwfFnBuFVaBQR0FFyUS7-9fY&key=AIzaSyDiqdTLaQL2lvS8H0e25g7Cyu2JkZBtias"
       allowfullscreen></iframe>
   </div>
 

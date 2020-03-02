@@ -67,9 +67,9 @@ Contact Us
           </p>
         </div>
 
-        {{-- <div>
+        <div>
           <vuelidatetest-component></vuelidatetest-component>
-        </div> --}}
+        </div>
 
       </div>
 

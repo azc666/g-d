@@ -34094,7 +34094,7 @@ var render = function() {
           "form",
           {
             staticClass: "w-full",
-            attrs: { method: "POST", action: "/contactus" },
+            attrs: { method: "POST" },
             on: {
               submit: function($event) {
                 $event.preventDefault()

@@ -78,11 +78,11 @@ Contact Us
     </div>
   </div>
 
-  {{-- <div id="map" class="flex">
+  <div id="map" class="flex">
     <iframe class="rounded-lg shadow-2xl flex-1 h-xxl -mt-6 -mb-12 sm:-mb-2" frameborder="0" style=""
       src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwfFnBuFVaBQR0FFyUS7-9fY&key={{ env('GOOGLE_MAPS_KEY') }}"
       allowfullscreen></iframe>
-  </div> --}}
+  </div>
 
 </div>
 <div class="container pb-40 sm:pb-12 mx-auto flex flex-wrap">

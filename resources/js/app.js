@@ -9,10 +9,10 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 import Vue from "vue";
-import FormTestComponent from "./components/FormTestComponent.vue";
+// import FormTestComponent from "./components/FormTestComponent.vue";
 import VuelidateTestComponent from "./components/VuelidateTestComponent.vue";
 import Vuelidate from "vuelidate";
-import axios from 'axios';
+// import axios from 'axios';
 
 Vue.use(Vuelidate);
 // Vue.config.productionTip = false;
@@ -41,8 +41,8 @@ Vue.component('footer-component', require('./components/FooterComponent.vue').de
 // Vue.component('contactform-component', require('./components/ContactFormComponent.vue').default);
 // Vue.component('formtest-component', require('./components/FormTestComponent.vue').default);
 Vue.component('vuelidatetest-component', require('./components/VuelidateTestComponent.vue').default);
-Vue.component('contact-form', require('./components/ContactForm.vue').default);
-Vue.component('vuetiful-component', require('./components/VuetifulFormComponent.vue').default);
+// Vue.component('contact-form', require('./components/ContactForm.vue').default);
+// Vue.component('vuetiful-component', require('./components/VuetifulFormComponent.vue').default);
 
 const app = new Vue({
     el: '#app'
@@ -76,8 +76,8 @@ const vuelidate = new Vue({
     // render: h => h(VuelidateTestComponent)
 });
 
-const vuetiful = new Vue({
-    el: '#vuetiful',
-});
+// const vuetiful = new Vue({
+//     el: '#vuetiful',
+// });
 
 

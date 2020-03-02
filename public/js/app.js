@@ -48691,10 +48691,10 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('footer-component', __webpa
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('vuelidatetest-component', __webpack_require__(/*! ./components/VuelidateTestComponent.vue */ "./resources/js/components/VuelidateTestComponent.vue")["default"]); // Vue.component('contact-form', require('./components/ContactForm.vue').default);
 // Vue.component('vuetiful-component', require('./components/VuetifulFormComponent.vue').default);
+// const app = new Vue({
+//     el: '#app'
+// });
 
-var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
-  el: '#app'
-});
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

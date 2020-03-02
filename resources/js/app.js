@@ -44,9 +44,9 @@ Vue.component('vuelidatetest-component', require('./components/VuelidateTestComp
 // Vue.component('contact-form', require('./components/ContactForm.vue').default);
 // Vue.component('vuetiful-component', require('./components/VuetifulFormComponent.vue').default);
 
-const app = new Vue({
-    el: '#app'
-});
+// const app = new Vue({
+//     el: '#app'
+// });
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

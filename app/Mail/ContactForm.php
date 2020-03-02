@@ -28,10 +28,10 @@ class ContactForm extends Mailable
         $this->subject = $request->subject;
         $this->message = $request->message;
 
-        // session(['name' => $request->name]);
-        // session(['email' => $request->email]);
-        // session(['subject' => $request->subject]);
-        // session(['message' => $request->message]);
+        session(['name' => $request->name]);
+        session(['email' => $request->email]);
+        session(['subject' => $request->subject]);
+        session(['message' => $request->message]);
     }
 
     /**
@@ -44,9 +44,10 @@ class ContactForm extends Mailable
 
         return $this->from($this->email, $this->name)
             ->subject($this->subject)
-            ->replyTo('output@g-d.com')
-            ->cc('dani@g-d.com')
-            ->bcc('allen@g-d.com')
+            // ->replyTo('output@g-d.com')
+            // ->cc('dani@g-d.com')
+            // ->bcc('allen@g-d.com')
             ->markdown('email.contact');
+
     }
 }

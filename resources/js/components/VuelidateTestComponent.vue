@@ -3,7 +3,7 @@
     <div
       class="flex-2/3 sm:-ml-24 md:ml-8 lg:ml-16 xl:ml-32 2xl:ml-16 mx-auto mt-2 sm:mt-8 md:mt-0 px-2 pb-6 pt-0 h-56 sm:w-108 lg:w-122 xl:w-650 2xl:w- bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded"
     >
-      <form method="POST" class="w-full" @submit.prevent="submit">
+      <form method="POST" class="w-full" @submit.prevent="submit" action="/contactus">
 
         <div class="input flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3 pt-2 -mb-2 { 'form-group--error': $v.name.$error }">

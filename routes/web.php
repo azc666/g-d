@@ -29,11 +29,11 @@ Route::get('/sendfiles', function () {
     return view('sendfiles');
 });
 
-// Route::get('/contactus', function () {
-//     return view('contactus');
-// });
+Route::get('/contactus', function () {
+    return view('contactus');
+});
 
-Route::get('/contactus', 'PageController@contact');
+// Route::get('/contactus', 'PageController@contact');
 Route::post('/contactus', 'PageController@sendContact');
 Route::get('/contact-response', 'PageController@contactResponse');
 

@@ -3,7 +3,7 @@
     <div
       class="flex-2/3 sm:-ml-24 md:ml-8 lg:ml-16 xl:ml-32 2xl:ml-16 mx-auto mt-2 sm:mt-8 md:mt-0 px-2 pb-6 pt-0 h-56 sm:w-108 lg:w-122 xl:w-650 2xl:w- bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded"
     >
-      <form method="POST" class="w-full" @submit.prevent="submit" action="/contactus">
+      <form class="w-full" action="/contactus" method="POST" @submit.prevent="submit()">
 
         <div class="input flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3 pt-2 -mb-2 { 'form-group--error': $v.name.$error }">
@@ -136,7 +136,7 @@
             ><span class="uppercase">Send the Message</span>
             </button>
 
-            <p
+            <!-- <p
               class="text-green-700 text-xl pt-2"
               v-if="submitStatus === 'OK'"
             >Thanks for your submission!</p>
@@ -152,7 +152,7 @@
                 <br />You can't submit an empty form.
             </p>
             <p class="text-green-700 text-xl pt-2" v-if="submitStatus === 'PENDING'">Sending...
-            </p>
+            </p> -->
           </div>
         </div>
       </form>
@@ -169,6 +169,7 @@ import {
   minLength,
   maxLength
 } from "vuelidate/lib/validators";
+import axios from 'axios';
 
 export default {
   data() {
@@ -182,7 +183,9 @@ export default {
   },
   methods: {
     submit() {
-
+      // alert('Sending Message');
+          console.log(this.name, this.email);
+          // window.location.replace('/contact-response');
         axios.post('contactus/',
           {
             name: this.name,
@@ -192,18 +195,19 @@ export default {
           })
 
         .then(function (response) {
-          window.location.replace('/contact-response');
+          // console.log(this.name, this.email);
+
         })
         .catch(function (error) {
           console.log(error);
         });
 
-        // console.log(this.name, this.email);
+        console.log(this.name, this.email);
 
-        this.submitStatus = "PENDING";
-        setTimeout(() => {
-          this.submitStatus = "OK";
-        }, 500);
+        // this.submitStatus = "PENDING";
+        // setTimeout(() => {
+        //   this.submitStatus = "OK";
+        // }, 500);
     }
   },
 

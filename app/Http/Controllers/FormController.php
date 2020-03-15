@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-// use axios;
-use App\Mail;
+use Mail;
+use App\Mail\ContactForm;
 
-class ContactUsController extends Controller
+class FormController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +15,7 @@ class ContactUsController extends Controller
      */
     public function index()
     {
-        //
+        return view('contactus');
     }
 
     /**
@@ -36,12 +36,24 @@ class ContactUsController extends Controller
      */
     public function store(Request $request)
     {
-        dd('oh yeah');
-        $temp = 2 + 2;
-        echo ('<br>' . $temp);
-        return response()->json([
-            'message' => 'New post created'
-        ]);
+        $data = array(
+            'name' => $request->get('name'),
+            'email'   => $request->get('email'),
+            'subject'  => $request->get('subject'),
+            'message'  => $request->get('message')
+        );
+
+        session()->put('data', $data);
+        $name = session('data.name');
+        // $email = session('data.email');
+        $email   = $request->get('email');
+        $subject = session('data.subject');
+        $message = session('data.message');
+
+        Mail::to('admin@test.com')->send(new ContactForm($request));
+        // dd($name, $email, $subject, $message, $data);
+
+        return view('contact-response', compact('data', 'name', 'email', 'subject', 'message'));
     }
 
     /**
@@ -87,27 +99,5 @@ class ContactUsController extends Controller
     public function destroy($id)
     {
         //
-    }
-
-    public function contact()
-    {
-         dd('hola');
-         return view('contactus');
-
-    }
-
-    public function sendContact(Request $request)
-    {
-        // dd('oh yeah');
-        // $temp = 2+2;
-        // echo('<br>'.$temp);
-        // return view('/aboutus');
-        // Mail::to('admin@test.com')->send(new ContactForm($request));
-        // return (['message' => 'task was successful']);
-
-        return response()->json([
-            'message' => 'New post created'
-        ]);
-
     }
 }

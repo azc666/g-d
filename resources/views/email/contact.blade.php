@@ -1,7 +1,7 @@
 @component('mail::message')
-# New Contact Message
+# Your Message Confirmation
 
-Someone submitted the contact form.<br>
+{{ $name }}  ({{ $email }}) submitted a message.<br>
 Subject: {{ $subject }}
 
 @component('mail::panel')
@@ -9,7 +9,7 @@ Subject: {{ $subject }}
   {{ $message }}
 @endcomponent
 
-@component('mail::button', ['url' => route('contact')])
+@component('mail::button', ['url' => route('contactus')])
 Reply to this email
 @endcomponent
 

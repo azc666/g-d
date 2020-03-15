@@ -29,13 +29,15 @@ Route::get('/sendfiles', function () {
     return view('sendfiles');
 });
 
-Route::get('/contactus', function () {
-    return view('contactus');
-});
+Route::get('/contactus', 'FormController@index')->name('contactus');
 
+// Route::post('/contactus', function () {
+    // return view('/contact-response');
+// });
+Route::post('/contact-response', 'FormController@store');
 // Route::get('/contactus', 'PageController@contact');
-Route::post('/contactus', 'PageController@sendContact');
-Route::get('/contact-response', 'PageController@contactResponse');
+// Route::post('/contactus', 'ContactUsController@sendContact');
+// Route::get('/contact-response', 'PageController@contactResponse');
 
 // Route::get('/testing', function () {
 //     return view('/testing');

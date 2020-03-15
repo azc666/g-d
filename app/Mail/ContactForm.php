@@ -44,9 +44,9 @@ class ContactForm extends Mailable
 
         return $this->from($this->email, $this->name)
             ->subject($this->subject)
-            // ->replyTo('output@g-d.com')
+            ->replyTo('output@g-d.com')
             // ->cc('dani@g-d.com')
-            // ->bcc('allen@g-d.com')
+            ->bcc('allen@g-d.com')
             ->markdown('email.contact');
 
     }

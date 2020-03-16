@@ -75,26 +75,42 @@ Contact Us
           <div
             class="flex-2/3 sm:-ml-24 md:ml-8 lg:ml-16 xl:ml-32 2xl:ml-16 mx-auto mt-2 sm:mt-8 md:mt-0 px-2 pb-6 pt-0 h-56 sm:w-108 lg:w-122 xl:w-650 2xl:w- bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded">
 
-            @if ($errors->any())
-            <div class="text-red-900 font-semibold">
+            {{-- @if ($errors->any())
+            <div class="alert alert-danger">
               <ul>
                 @foreach ($errors->all() as $error)
                 <li>{{ $error }}</li>
                 @endforeach
               </ul>
             </div>
-            @endif
+            @endif --}}
 
             <form class="w-full" action="/contact-response" method="POST">
               @csrf
-
               <div class="input flex flex-wrap -mx-3 mb-6">
                 <div class="w-full px-3 pt-2 -mb-2">
                   <label for="name"
                     class="block uppercase tracking-wide text-gray-700 text-sm font-semibold mb-1 pl-1">Name*</label>
                   <input id="name" name="name"
-                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-600 rounded py-2 px-4 -mb-2 leading-tight focus:bg-white focus:border-gray-800"
-                    type="text" placeholder="John Lennon" value="{{ old('name', '') }}" />
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-600 rounded py-2 px-4 -mb-2 leading-tight focus:bg-white focus:border-gray-800 @error('name') is-invalid @enderror"
+                    type="text" placeholder="John Lennon"
+                    value="{{ old('name', '') }}" />
+                    @error('name')
+                      <div class="text-red-900 font-semibold">{{ $message }}</div>
+                    @enderror
+
+                    <div
+                      @if ($errors->first('name'))
+                        class="mt-4";
+                      @endif
+                      >
+                      <span class="text-red-900 font-semibold">
+                        @foreach ($errors->get('name') as $error)
+                          <li>{{$error}}</li>
+                        @endforeach
+                        </span>
+                    </div>
+
                 </div>
               </div>
 
@@ -104,7 +120,8 @@ Contact Us
                     class="block uppercase tracking-wide text-gray-700 text-sm font-semibold mb-1 pl-1">email*</label>
                   <input id="email" name="email"
                     class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-600 rounded py-2 px-4 -mb-2 leading-tight focus:bg-white focus:border-gray-800"
-                    type="email" placeholder="john@test.com" value="{{ old('email', '') }}" />
+                    type="email" placeholder="john@test.com" />
+                    <span> {{ $errors->first('email') }}</span>
                 </div>
               </div>
 
@@ -114,7 +131,7 @@ Contact Us
                     class="block uppercase tracking-wide text-gray-700 text-sm font-semibold mb-1 pl-1">subject*</label>
                   <input id="subject" name="subject"
                     class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-600 rounded py-2 px-4 -mb-2 leading-tight focus:bg-white focus:border-gray-800"
-                    type="text" placeholder="Subject of the Message" value="{{ old('subject', '') }}"/>
+                    type="text" placeholder="Subject of the Message" />
                 </div>
               </div>
 
@@ -124,9 +141,7 @@ Contact Us
                     class="block uppercase tracking-wide text-gray-700 text-sm font-semibold mb-1 pl-1">message*</label>
                   <textarea id="message" name="message"
                     class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-600 rounded py-2 px-4 -mb-2 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-lg"
-                    type="text" placeholder="Your Message">{{ old('message') }}</textarea>
-
-
+                    type="text" placeholder="Your Message"> </textarea>
                 </div>
               </div>
 
@@ -134,7 +149,8 @@ Contact Us
                 <div class="w-full pt-4 px-2">
 
                   <button class="submit shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-2 w-full rounded
-                    bg-teal-700 hover:bg-teal-600" type="submit"><span class="uppercase">Send the Message</span>
+                    bg-teal-700 hover:bg-teal-600"
+                    type="submit"><span class="uppercase">Send the Message</span>
                   </button>
 
 

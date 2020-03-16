@@ -36,24 +36,31 @@ class FormController extends Controller
      */
     public function store(Request $request)
     {
-        $data = array(
-            'name' => $request->get('name'),
-            'email'   => $request->get('email'),
-            'subject'  => $request->get('subject'),
-            'message'  => $request->get('message')
-        );
 
-        session()->put('data', $data);
-        $name = session('data.name');
-        // $email = session('data.email');
-        $email   = $request->get('email');
-        $subject = session('data.subject');
-        $message = session('data.message');
+        $validatedData = $request->validate([
+            'name' => 'required',
+            'email'   => 'required',
+            'subject'  => 'required',
+            'message'  => 'required',
+        ]);
 
-        Mail::to('admin@test.com')->send(new ContactForm($request));
+        // $data = [
+        //     'name' => $request->get('name'),
+        //     'email'   => $request->get('email'),
+        //     'subject'  => $request->get('subject'),
+        //     'message'  => $request->get('message')
+        // ];
+
+        // session()->put('data', $data);
+            $name = $request->name;
+            $email = $request->email;
+            $subject = $request->subject;
+            $message = $request->message;
+
+        Mail::to($email)->send(new ContactForm($request));
         // dd($name, $email, $subject, $message, $data);
 
-        return view('contact-response', compact('data', 'name', 'email', 'subject', 'message'));
+        return view('contact-response', compact('name', 'email', 'subject', 'message'));
     }
 
     /**

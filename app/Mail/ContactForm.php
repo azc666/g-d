@@ -2,6 +2,7 @@
 
 namespace App\Mail;
 
+use Illuminate\Http\Request;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -42,7 +43,7 @@ class ContactForm extends Mailable
     public function build()
     {
 
-        return $this->from($this->email, $this->name)
+        return $this->from('output@g-d.com')
             ->subject($this->subject)
             ->replyTo('output@g-d.com')
             // ->cc('dani@g-d.com')

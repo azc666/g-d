@@ -24,7 +24,8 @@ Message Submitted
       </h1>
       <p class="text-base sm:text-xl text-gray-700 ml-12 mb-2 md:mb-8 sm:mr-6 font-myriad">
 
-          <h3 class="text-xl font-semibold text-gray-800 pl-24">Thanks for your message.</h3> <br>
+          <h3 class="text-xl font-semibold text-gray-800 pl-24">
+            Thanks for your message.</h3> <br>
         <div class="text-base text-gray-700 pl-24">
           An email confirmation has been sent to: <br> <span class="font-semibold">{{ $name }}</span> ({{ $email }}).
           <br><br>

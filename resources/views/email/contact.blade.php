@@ -1,5 +1,7 @@
 @component('mail::message')
-# Your Message Confirmation
+# {{ $name }},
+# Your Message Has been sent!
+We will be in contact ASAP!
 
 {{ $name }}  ({{ $email }}) submitted a message.<br>
 Subject: {{ $subject }}

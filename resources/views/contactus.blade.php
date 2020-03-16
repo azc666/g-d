@@ -5,7 +5,7 @@ Contact Us
 @endsection
 
 @section('stylesheets')
-<script src="http://parsleyjs.org/dist/parsley.js"></script>
+<script src="https://parsleyjs.org/dist/parsley.js"></script>
 <link rel="stylesheet" href="/css/parsley.css">
 @endsection
 

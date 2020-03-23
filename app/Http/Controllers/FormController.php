@@ -25,7 +25,7 @@ class FormController extends Controller
      */
     public function index2()
     {
-        return view('contactus-test');
+        return view('contactus');
     }
 
     /**

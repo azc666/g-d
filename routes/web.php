@@ -30,6 +30,7 @@ Route::get('/sendfiles', function () {
 });
 
 Route::get('/contactus', 'FormController@index')->name('contactus');
+Route::get('/contactus-test', 'FormController@index2')->name('contactus');
 
 // Route::post('/contactus', function () {
     // return view('/contact-response');

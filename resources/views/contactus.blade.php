@@ -45,11 +45,11 @@ Contact Us
 
     <div class="md:w-3/4 sm:-mb-32">
 
-      <h1 class="xxs:pl-12 xs:pl-24 sm:-pl-30 md:-ml-20 text-4xl lg:text-5xl text-gray-800 text-center font-chicle">
+      <h1 class="xxs:pl-20 xs:pl-24 sm:-pl-30 md:-ml-20 text-4xl lg:text-5xl text-gray-800 text-center font-chicle">
         Need to Contact Us?
       </h1>
       <h3
-        class="xxs:pl-12 xs:pl-22 sm:ml-2 sm:mb-6 md:-ml-20 text-2xl md:text-3xl lg:text-4xl text-gray-800 text-center leading-tight font-chicle">
+        class="xxs:pl-16 xs:pl-22 sm:ml-2 sm:mb-6 md:-ml-20 text-2xl md:text-3xl lg:text-4xl text-gray-800 text-center leading-tight font-chicle">
         Call, email, send us a message,
         <span class="lg:hidden"><br></span>
         <a href="#map" class="border-b-2 border-teal-600 hover:text-gray-600">or just stop on
@@ -57,7 +57,7 @@ Contact Us
       </h3>
 
       <div class="flex justify-center xxs:block">
-        <div class="flex-1 xxs:pl-6 xxs:mt-4 xs:pl-16 sm:ml-12 sm:mb-20 md:-ml-12 text-center">
+        <div class="flex-1 xxs:pl-12 xxs:mt-4 xs:pl-16 sm:ml-12 sm:mb-20 md:-ml-12 text-center">
           <span class="text-base sm:text-xl md:text-2xl font-semibold sm:-ml-8">Graphics + Design</span>
           <p class="xxs:-mb-4 md:text-xl lg:text-xl text-center">
             <span class="sm:-ml-8 tracking-tighter">1111</span> W Cass Street
@@ -68,12 +68,12 @@ Contact Us
 
         <div class="lg:hidden flex-1 xxs:mt-8">
            <span class="xxs:flex sm:-mt-16 sm:ml-3 md:ml-12 sm:text-base md:text-lg">
-            <img class="xxs:ml-20 xs:ml-32" src="assets/icons/phone2.png" alt="" />&nbsp;&nbsp;
+            <img class="xxs:ml-26 xs:ml-32" src="assets/icons/phone2.png" alt="" />&nbsp;&nbsp;
             <a href="tel:8132549444" class="xs:-mr-8 hover:text-gray-600">813-254-9444</a>
           </span>
 
           <span class="xxs:flex sm:ml-4 sm:mt-2 md:ml-12 md:pb-2 sm:text-base md:text-lg">
-            <img class="xxs:ml-18 xs:ml-30 sm:-ml-2" src="assets/icons/at2.png" alt="" />
+            <img class="xxs:ml-24 xs:ml-30 sm:-ml-2" src="assets/icons/at2.png" alt="" />
             &nbsp;&nbsp;
             <a href="mailto:output@g-d.com" class="xxs:-mr-6 xs:-mr-8 sm:mr-0 sm:mb-6 hover:text-gray-600">output@g-d.com</a>
           </span>
@@ -107,7 +107,7 @@ Contact Us
     </div>
   </div>
 
-  <div class="xxs:-mt-26 xxs:ml-5 xxs:w-80 xs:w-88 xs:ml-8 xs:mr-4 md:pl-3 lg:pl-16 2xl:pl-38 md:pt-8">
+  <div class="xxs:-mt-26 xxs:ml-6 xxs:w-80 xs:w-88 xs:ml-8 xs:mr-4 md:pl-3 lg:pl-16 2xl:pl-38 md:pt-8">
     <div class="sm:ml-2 sm:mt-26 lg:ml-48 xl:ml-80 sm:w-108 md:w-122 lg:w-650 xl:w-700 lg:-mt-28 xl:-mt-56 2xl:-mt-80 p-2 pb-6 bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded">
       {{-- @if ($errors->any())
           <div class="text-red-900 font-semibold">

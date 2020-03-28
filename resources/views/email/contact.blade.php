@@ -12,7 +12,7 @@ Subject: {{ $subject }}
 @endcomponent
 
 @component('mail::button', ['url' => route('contactus')])
-Reply to this email
+LEAVE ANOTHER MESSAGE
 @endcomponent
 
 Thanks,<br>

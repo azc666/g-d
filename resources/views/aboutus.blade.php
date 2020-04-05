@@ -19,28 +19,22 @@
       </div>
 
       <div class="w-full sm:w-3/4">
-        <h1 class="text-4xl text-gray-800 sm:pl-12 text-center sm:text-left font-chicle">
-          About Us
+        <h1 class="text-4xl text-gray-800 sm:mb-4 sm:pl-12 text-center sm:text-left font-chicle">
+          Our Story
         </h1>
-        <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-4 md:mb-16 sm:mr-6 font-myriad">
-          Graphics + Design has been a leading service provider to the Tampa Bay Area since 1987, supplying pre-press
-          services,
-          printing, post-press services and large format color output. We also offer direct mail (static and variable)
-          with
-          complete mailing services. Combined with our cross-media marketing services (VDP, pURLs, eMail Campaigns and
-          Text
-          Campaigns), we can provide complete targeted marketing solutions.
-        </p>
-        <h1 class="text-2xl text-gray-800 sm:pl-12 text-center sm:text-left font-chicle">
-          Mission Statement
-        </h1>
-        <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-8 sm:mr-6 font-myriad">
-          From company inception to the present, our mission has remained the same: To provide dependable, personalized
-          service.
-          Our philosophy is to treat your project as our own. With an emphasis on service, we strive for the best
-          quality
-          possible, at a fair price and timely delivery.
-        </p>
+        <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-4 sm:mr-6 font-myriad">
+          Graphics + Design was formed in 1987 to provide dependable, personalized Graphic services to the Tampa Bay business community. We are proud of our 30 years experience with commercial printing, and we continue to maintain the highest quality production standards.</p>
+          <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-4 sm:mr-6 font-myriad">
+            Whether you are a designer, an advertising agency, local business or national corporation, our personable and knowledgeable staff can assist with your image, and extend your outreach to a targeted clientel.</p>
+          <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-4 sm:mr-6 font-myriad">
+            Through the years our philosophy has remained unchanged. Treat your project as our own. With an emphasis on service, we strive for the best quality possible, at a fair price and timely delivery.</p>
+          <p class="font-semibold sm:text-xl text-gray-700 text-semibold sm:ml-12 mb-6 sm:mr-6 font-myriad">
+            That's why Graphics + Design is your go to, full service, print and mail resource!</p>
+           <p class="font-semibold text-center sm:text-2xl text-gray-700 text-semibold sm:ml-12 mb-4 md:mb-16 sm:mr-6 font-myriad">
+            Graphics + Design<br><span class="italic sm:text-xl">Imaging at the Speed of Business</span> </p>
+
+
+
       </div>
 
     </div>

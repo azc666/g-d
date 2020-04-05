@@ -26,41 +26,33 @@ Services
         Printing
       </h3>
       <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-4 sm:mr-6 font-myriad">
-        Our high-speed digital color press paired with our powerful RIPs, produces documents with world-class image quality. The
-        digital press is pantone certified and can accommodate heavy stocks. From direct mail projects using VDP (variable data
-        printing), to posters and short-run multi-page stitched booklets, you can expect faithful color for your photos, images
-        and text.
+        Our high-speed digital, pantone certified color presses produce documents with world-class image quality on a wide variety of substrates. For direct mail projects, posters and multi-page stitched booklets, you can expect faithful color for your photos, images and text. We maintain the highest quality production standards for traditional commercial printing products like business cards, envelopes, stationery, brochures, flyers, rack cards and carbonless sets.
+      </p>
 
-        We have over 30 years experience in commercial offset printing, and have integrated our digital prepress expertise into
-        the printing processes. We maintain the highest quality production standards for products like business cards,
-        envelopes, stationery, brochures, flyers, carbonless sets, as well as other traditional business printing.
-      </p>
       <h3 class="text-2xl text-gray-800 sm:ml-12 text-left font-chicle">
-        Variable Data Printing
+        Mailing Services & Variable Data
       </h3>
       <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-4 sm:mr-6 font-myriad">
-        VDP is the engine that automates the production of unique, relevant communications cross-media. These cross-media
-        campaigns motivate the recipients to take action. Create personalized direct mail with postcards, flyers, letters, or
-        virtually any marketing and sales promotional piece, that utilizes variable data and leads the recipient to their
-        personal URL microsite. VDP is also a cost effective solution for products such as numbered tickets, event passes or any
-        other item that requires personalization. Make more of an impact at your next event with less effort!
+        We offer full mailing services including targeted lists to assist you in reaching your largest possible audience. Our services include addressing, CASS certification, list de-dupe, route presort, NCOA updates, inserting, sealing, and mail drop. You can expect to pay the lowest allowable postage rates!
       </p>
-      <h3 class="text-2xl text-gray-800 sm:ml-12 text-left font-chicle">
-        Mailing Services
-      </h3>
       <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-4 sm:mr-6 font-myriad">
-        We offer full mailing services including targeted lists to assist you in reaching your largest possible audience. Our
-        services include addressing, CASS certification, list de-dupe, route presort, NCOA updates, inserting and mail drop.
-        Also, you can expect to pay the lowest allowable postage rates!
+        Target your audience with personalized commucications. We can extend your targeted marketing campaigns beyond direct mail with email, text, and pURL campaigns for maximum effectiveness. Variable Data is perfect for other products as well, including Name Badges, Table Cards, Event Passes, and other digitally printed items.
       </p>
+
       <h3 class="text-2xl text-gray-800 sm:ml-12 text-left font-chicle">
-        Large Format
+        Posters and Trade Show Signage
       </h3>
       <p class="text-base sm:text-xl text-gray-700 sm:ml-12 pb-8 sm:mr-6 font-myriad">
-        This is the age of large color. Today, in order for your ideas to be effective, images must be big, bold, and colorful.
-        Our Archival compatible large format color prints and in-house laminating and mounting department can add that finishing
-        touch to your trade show exhibits, POP signage, backlit signage, vinyl banners and more. Let Graphics + Design help make
+        Make Your ideas really pop! Archival fine art prints, POP displays, floor graphics, backlit signage, indoor & outoor vinyl banners, and trade show items are some of the products we offer. Our in-house laminating and mounting department can add that finishing
+        touch to your project. Let Graphics + Design help make
         your BIG idea look great.
+      </p>
+
+      <h3 class="text-2xl text-gray-800 sm:ml-12 text-left font-chicle">
+        Typesetting & Design Services
+      </h3>
+      <p class="text-base sm:text-xl text-gray-700 sm:ml-12 pb-8 sm:mr-6 font-myriad">
+        Not into the "design thing"? No worries! We can help from concept to completion. Create or augment your Branding with products ranging from Logos to traditional business products including Business Cards, Brochures, Flyers and much more! Our staff will work with you directly, making sure you are part of the creative process through the duration of your project.
       </p>
 
 

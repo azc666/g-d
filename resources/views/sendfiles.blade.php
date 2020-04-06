@@ -43,7 +43,7 @@ Services
           class="sm:text-xl text-semibold bg-purple-200 border-purple-800 border-2 rounded-lg p-1 pl-2 pr-2 text-purple-700 hover:bg-purple-500 hover:text-purple-200">
           <a href="https://files2.g-d.com" target="_blank">https://files2.g-d.com</a>
         </span>
-        <span class="block mt-2">Use your assigned User Name and Password to log in. If you do not have a user name or password set up, please call us and we can set up one for you. Please be sure to include your contact information (email address, phone number, etc...), as well as complete specs for the job when you upload the project or in a seperate email to <a href="mailto:output@g-d.com" class="font-semibold hover:text-gray-600">output@g-d.com.</a><span class="font-semibold italic"> We will never begin production without your authorization.</span></span>
+        <span class="block mt-2">Use your assigned User Name and Password to log in. If you do not have a user name or password set up, please call us and we can set up one for you. Please be sure to include your contact information (email address, phone number, etc...), as well as complete specs for the job when you upload the project or in a separate email to <a href="mailto:output@g-d.com" class="font-semibold hover:text-gray-600">output@g-d.com.</a><span class="font-semibold italic"> We will never begin production without your authorization.</span></span>
       </p>
 
       <h3 class="text-2xl text-gray-800 sm:ml-12 text-left font-chicle">
@@ -53,7 +53,7 @@ Services
         Press Quality PDF files are preferred for ALL printing.  We also accept a wide variety of file formats including but not limited to: Creative Cloud applications (InDesign, Photoshop & Illustrator). When providing live files, please be sure to package your project with all supporting documents including images and fonts. Microsoft Excel or CSV files are preferred for mailing lists and variable data printing.
       </p>
 
-      <p class="text-base md:text-xl text-gray-700 sm:ml-12 mb-6 sm:mb-8 sm:mr-6 font-myriad">If you need help in preparing your files for production, please give us a call at <span><a href="tel:8132549444" class="font-semibold hover:text-gray-600">813-254-9444.</a></span> Our knowledgable staff will be happy to assist you!
+      <p class="text-base md:text-xl text-gray-700 sm:ml-12 mb-6 sm:mb-8 sm:mr-6 font-myriad">If you need help in preparing your files for production, please give us a call at <span><a href="tel:8132549444" class="font-semibold hover:text-gray-600">813-254-9444.</a></span> Our knowledgeable staff will be happy to assist you!
       </p>
 
 

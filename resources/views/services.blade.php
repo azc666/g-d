@@ -26,7 +26,7 @@ Services
         Printing
       </h3>
       <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-2 sm:mb-4 sm:mr-6 font-myriad">
-        Our high-speed digital, pantone certified color presses produce documents with world-class image quality on a wide variety of substrates. For direct mail projects, posters and multi-page stitched booklets, you can expect faithful color for your photos, images and text. We maintain the highest quality production standards for traditional commercial printing products like business cards, envelopes, stationery, brochures, flyers, rack cards and carbonless sets.
+        Our high-speed digital, pantone certified color presses produce documents with world-class image quality on a wide variety of substrates. For direct mail projects, posters and multi-page stitched booklets, you can expect faithful color for your photos, images and text. We maintain the highest quality production standards for traditional commercial printing products like business cards, envelopes, stationery, brochures, flyers, rack cards, and carbonless sets.
       </p>
 
       <h3 class="text-2xl text-gray-800 sm:ml-12 text-left font-chicle">
@@ -52,7 +52,7 @@ Services
         Typesetting & Design Services
       </h3>
       <p class="text-base sm:text-xl text-gray-700 sm:ml-12 pb-8 sm:mr-6 font-myriad">
-        Not into the "design thing"? No worries! We can help from concept to completion. Create or augment your Branding with products ranging from Logos to traditional business products including Business Cards, Brochures, Flyers and much more! Our staff will work with you directly, making sure you are part of the creative process through the duration of your project.
+        Not into the "design thing"? No worries! We can help from concept to completion. Create or augment your branding with products ranging from logos to traditional business products including Business Cards, Brochures, Flyers and much more! Our staff will work with you directly, making sure you are part of the creative process through the duration of your project.
       </p>
 
 

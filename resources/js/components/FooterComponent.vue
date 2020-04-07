@@ -5,7 +5,9 @@
         <p class="pt-2 leading-tight font-myriad font-light">
           Graphics + Design
           <br />
-          <span class="italic text-base line-height-none">"Imaging at the Speed of Business"</span>
+          <span class="text-base line-height-none"><span class="italic"> Imaging at the Speed of Business</span><br>
+          Hours of Operation: M-F 8:30am-6pm</span>
+
         </p>
       </div>
 

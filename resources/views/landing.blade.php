@@ -13,13 +13,19 @@ G+D Home
     <nav-component></nav-component>
   </div>
 
-  <h1 class=" mt-4 leading-none text-4xl sm:text-6xl text-center font-myriad font-bold tracking-tight">Graphics + Design</h1>
+  <h1 class=" mt-4 leading-none text-4xl sm:text-6xl text-center font-myriad font-bold tracking-tight">Graphics + Design
+  </h1>
   <h3 class="mt-0 text-2xl sm:text-3xl text-center font-myriad italic">Imaging at the Speed of Business</h3>
 
   <div class="pb-4 flex">
     <div class="mx-auto sm:w-3/4 p-2 mt-5 sm:mt-8 background-trans border rounded-lg shadow-2xl">
       <img class="w-auto mx-auto object-cover rounded" src="/assets/G+D Building2.png" alt="">
-<span class="block pt-2 pr-2 mb-0 text-right text-sm sm:text-base text-gray-800 text-medium">The Home Office - Tampa, FL</span>
+      <div class="flex justify-between">
+        <span class="block pt-2 pr-2 mb-0 text-sm sm:text-base text-red-500 font-bold">COVID-19 Hours: M-F 10am-4pm</span>
+        <span class="pt-2 pr-2 mb-0 text-right text-sm sm:text-base text-gray-800 text-medium">The Home Office -
+          Tampa, FL</span>
+      </div>
+
     </div>
   </div>
 

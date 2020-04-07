@@ -5,7 +5,7 @@
  */
 
 // require('./bootstrap');
-
+Vue.config.devtools = true;
 window.Vue = require('vue');
 
 import Vue from "vue";

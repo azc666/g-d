@@ -31,7 +31,7 @@
             <p class="text-base sm:text-xl text-gray-700 sm:ml-12 mb-4 sm:mr-6 font-myriad">
               See what our clients think of us on the <span
                 class="tsm:text-xl text-semibold bg-purple-200 border-purple-800 border-2 rounded-lg p-1 pl-2 pr-2 text-purple-700 hover:bg-purple-500 hover:text-purple-200">
-                <a href="/testimonials">Testimonials</a></span> page.</p>
+                <a href="/testimonials"><span class="xxs:leading-loose sm:leading-normal"> Testimonials</span></a></span> page.</p>
           <p class="font-semibold sm:text-xl text-gray-700 text-semibold sm:ml-12 mb-6 sm:mr-6 font-myriad">
             Graphics + Design is your go-to, full service, print and mail resource!</p>
            <p class="font-semibold text-center sm:text-2xl text-gray-700 text-semibold sm:ml-12 mb-4 md:mb-16 sm:mr-6 font-myriad">

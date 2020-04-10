@@ -27,7 +27,7 @@ Testimonials
 
         <div class="self-start max-w-md py-4 px-8 mt-12 bg-gray-200 shadow-2xl rounded-lg my-20 sm:mx-auto 2xl:mr-64">
           <div>
-            <img class="xxs:mx-auto sm:ml-32 -mt-8 w-30 h-30 object-cover" src="assets/PUSH PIN BLUE.png" alt="">
+            <img class="xxs:mx-auto sm:ml-32 -mt-8 w-30 h-30 object-cover" src="assets/BLUE_PUSHPIN.png" alt="">
             <img class="-ml-8 -mt-6 w-20 h-20 object-cover" src="assets/quotation-marks.png"
               alt="">
             <p class="mt-2 text-gray-600 font-myriad text-base">The high-quality print and design services provided by
@@ -43,7 +43,7 @@ Testimonials
 
         <div class="self-start max-w-md py-4 px-8 mt-6 bg-gray-200 shadow-2xl rounded-lg xxs:mb-20 sm:my-4 sm:mx-auto">
           <div>
-            <img class="xxs:mx-auto sm:ml-32 -mt-8 w-30 h-30 object-cover" src="assets/PUSH PIN RED.png" alt="">
+            <img class="xxs:mx-auto sm:ml-32 -mt-8 w-30 h-30 object-cover" src="assets/RED_PUSHPIN.png" alt="">
             <img class="-ml-8 -mt-6 w-20 h-20 object-cover" src="assets/quotation-marks.png"
               alt="">
             <p class="mt-2 text-gray-600 font-myriad text-base">Abe Brown Ministries has worked with Graphics + Design
@@ -67,7 +67,7 @@ Testimonials
 
         <div class="self-start max-w-md py-4 lg:-mt-20 px-8 bg-gray-200 shadow-2xl rounded-lg xxs:mb-20 sm:mx-auto">
           <div>
-            <img class="xxs:mx-auto sm:ml-32 -mt-8 w-30 h-30 object-cover" src="assets/PUSH PIN RED.png" alt="">
+            <img class="xxs:mx-auto sm:ml-32 -mt-8 w-30 h-30 object-cover" src="assets/RED_PUSHPIN.png" alt="">
             <img class="-ml-8 -mt-6 w-20 h-20 object-cover" src="assets/quotation-marks.png"
               alt="">
             <p class="mt-2 text-gray-600 font-myriad text-base">G+D’s dedication to customer service is evident in all
@@ -87,7 +87,7 @@ Testimonials
 
         <div class="self-start max-w-md py-4 px-8 mt-2 bg-gray-200 shadow-2xl rounded-lg xxs:mb-16 sm:my-2 sm:mx-auto">
           <div>
-            <img class="xxs:mx-auto sm:ml-32 -mt-8 w-30 h-30 object-cover" src="assets/PUSH PIN YELLOW.png" alt="">
+            <img class="xxs:mx-auto sm:ml-32 -mt-8 w-30 h-30 object-cover" src="assets/YELLOW_PUSHPIN.png" alt="">
             <img class="-ml-8 -mt-6 w-20 h-20 object-cover" src="assets/quotation-marks.png"
               alt="">
             <p class="mt-2 text-gray-600 font-myriad text-base">Much thanks to you and your staff for your constant

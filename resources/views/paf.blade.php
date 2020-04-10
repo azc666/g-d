@@ -15,7 +15,7 @@
     <div class="flex container m-0">
 
       <div class="w-1 sm:w-1/4">
-        <img class="w-0 sm:w-full mr-12" src="/assets/posters/paf.jpg" alt="">
+        <img class="w-0 sm:w-full mr-12" src="/assets/posters/paf.png" alt="">
       </div>
 
       <div class="w-full sm:w-3/4">

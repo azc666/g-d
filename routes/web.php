@@ -25,6 +25,10 @@ Route::get('/testimonials', function () {
     return view('testimonials');
 });
 
+Route::get('/paf', function () {
+    return view('paf');
+});
+
 Route::get('/services', function () {
     return view('services');
 });

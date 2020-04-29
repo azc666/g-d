@@ -108,7 +108,7 @@ Contact Us
     </div>
   </div>
 
-  <div class="xxs:-mt-26 xxs:ml-6 xxs:w-80 xs:w-88 xs:ml-8 xs:mr-4 md:pl-3 lg:pl-16 2xl:pl-38 md:pt-8">
+  <div class="xxs:-mt-26 xxs:ml-6 xxs:w-80 xs:w-88 xs:ml-8 xs:mr-4 md:pl-3 lg:pl-16 2xl:pl-80 md:pt-8">
     <div class="sm:ml-2 sm:mt-26 lg:ml-48 xl:ml-80 sm:w-108 md:w-122 lg:w-650 xl:w-700 lg:-mt-28 xl:-mt-56 2xl:-mt-80 p-2 pb-6 bg-teal-300 opacity-75 order-solid border-2 border-gray-600 rounded">
       {{-- @if ($errors->any())
           <div class="text-red-900 font-semibold">

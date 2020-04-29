@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Mail;
 use App\Mail\ContactForm;
+use Session;
 
 class FormController extends Controller
 {
@@ -49,28 +50,31 @@ class FormController extends Controller
 
         $validatedData = $request->validate([
             'name' => 'required',
-            'email'   => 'required',
+            'email'   => 'required|email',
             'subject'  => 'required',
             'message'  => 'required',
         ]);
 
-        // $data = [
-        //     'name' => $request->get('name'),
-        //     'email'   => $request->get('email'),
-        //     'subject'  => $request->get('subject'),
-        //     'message'  => $request->get('message')
-        // ];
-
-        // session()->put('data', $data);
             $name = $request->name;
             $email = $request->email;
             $subject = $request->subject;
             $message = $request->message;
 
-        Mail::to($email)->send(new ContactForm($request));
-        // dd($name, $email, $subject, $message, $data);
+        $secret = env('RECAPTCHA_SECRET');
+        $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=" . $_POST['g-recaptcha-response'];
+        $verify = json_decode(file_get_contents($url));
 
-        return view('contact-response', compact('name', 'email', 'subject', 'message'));
+        if ($verify->success) {
+            Mail::to($email)->send(new ContactForm($request));
+
+            return view('contact-response', compact('name', 'email', 'subject', 'message'));
+        } else {
+            // Session::flash('alert', "Special message goes here");
+            // dd($verify);
+            $verify = session()->put($verify->success, false);
+            return redirect()->back()->withInput();
+        }
+
     }
 
     /**

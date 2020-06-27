@@ -11,7 +11,8 @@ Subject: {{ $subject }}
   {{ $message }}
 @endcomponent
 
-@component('mail::button', ['url' => route('contactus')])
+{{-- @component('mail::button', ['url' => route('contactus')]) --}}
+@component('mail::button', ['url' => \URL::to('https://www.g-d.com/contactus')])
 LEAVE ANOTHER MESSAGE
 @endcomponent
 

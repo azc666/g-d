@@ -21,7 +21,7 @@ G+D Home
     <div class="mx-auto sm:w-3/4 p-2 mt-5 sm:mt-8 background-trans border rounded-lg shadow-2xl">
       <img class="w-auto mx-auto object-cover rounded" src="/assets/G+D Building2.png" alt="">
       <div class="flex justify-between">
-        <span class="block pt-2 pr-2 mb-0 text-sm sm:text-base text-red-500 font-bold">COVID-19 Hours: M-F 10am-4pm</span>
+        <span class="block pt-2 pr-2 mb-0 text-sm sm:text-base text-red-500 font-bold">Summer Hours: M-F 9:30am - 5pm</span>
         <span class="pt-2 pr-2 mb-0 text-right text-sm sm:text-base text-gray-800 text-medium">The Home Office -
           Tampa, FL</span>
       </div>

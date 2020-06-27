@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Mail;
+// use App\Mail;
 use App\Mail\ContactForm;
 use Session;
 
@@ -55,10 +56,10 @@ class FormController extends Controller
             'message'  => 'required',
         ]);
 
-            $name = $request->name;
-            $email = $request->email;
-            $subject = $request->subject;
-            $message = $request->message;
+        $name = $request->name;
+        $email = $request->email;
+        $subject = $request->subject;
+        $message = $request->message;
 
         $secret = env('RECAPTCHA_SECRET');
         $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=" . $_POST['g-recaptcha-response'];
@@ -74,7 +75,6 @@ class FormController extends Controller
             $verify = session()->put($verify->success, false);
             return redirect()->back()->withInput();
         }
-
     }
 
     /**

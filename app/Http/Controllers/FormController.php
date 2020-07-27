@@ -56,6 +56,23 @@ class FormController extends Controller
             'message'  => 'required',
         ]);
 
+        $email = $request->email;
+        // $key = "z0MOIqtO77nXns5s3nJ34"; // alleng-d.com
+        $key = env('EMAILVERIFYLIST_KEY');
+
+        $url2 = "https://apps.emaillistverify.com/api/verifyEmail?secret=" . $key . "&email=" . $email;
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url2);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        $response = curl_exec($ch);
+        // dd($response);
+        // echo $response;
+        curl_close($ch);
+
+
+
         $name = $request->name;
         $email = $request->email;
         $subject = $request->subject;
@@ -65,7 +82,11 @@ class FormController extends Controller
         $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=" . $_POST['g-recaptcha-response'];
         $verify = json_decode(file_get_contents($url));
 
-        if ($verify->success) {
+//   dd($response);
+
+        if ($verify->success && $response==="ok") {
+
+
             Mail::to($email)->send(new ContactForm($request));
 
             return view('contact-response', compact('name', 'email', 'subject', 'message'));

@@ -137,7 +137,7 @@ Contact Us
       <div class="input flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3 pt-2 -mb-2">
           <label for="email"
-            class="block uppercase tracking-wide text-gray-700 text-sm font-semibold mb-1 pl-1">email*</label>
+            class="block uppercase tracking-wide text-gray-700 text-sm font-semibold mb-1 pl-1">email* (Must be a verifyable address)</label>
           <input type="email" name="email" id="email" placeholder="john@test.com" value="{{ old('email', '') }}"
             class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-600 rounded py-2 px-4 -mb-2 leading-tight focus:bg-white focus:border-gray-500"
             required data-parsley-type="email" data-parsley-maxlength="100" data-parsley-trigger="keyup" />

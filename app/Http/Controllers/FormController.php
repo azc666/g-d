@@ -4,9 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Mail;
-// use App\Mail;
+use Response;
 use App\Mail\ContactForm;
 use Session;
+use nickdnk\ZeroBounce\Email;
+use nickdnk\ZeroBounce\Result;
+use nickdnk\ZeroBounce\ZeroBounce;
 
 class FormController extends Controller
 {
@@ -17,17 +20,9 @@ class FormController extends Controller
      */
     public function index()
     {
-        return view('contactus');
-    }
 
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index2()
-    {
         return view('contactus');
+
     }
 
     /**
@@ -46,8 +41,9 @@ class FormController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, Response $response)
     {
+        Session::put('msg', '');
 
         $validatedData = $request->validate([
             'name' => 'required',
@@ -57,21 +53,29 @@ class FormController extends Controller
         ]);
 
         $email = $request->email;
-        // $key = "z0MOIqtO77nXns5s3nJ34"; // alleng-d.com
-        $key = env('EMAILVERIFYLIST_KEY');
 
-        $url2 = "https://apps.emaillistverify.com/api/verifyEmail?secret=" . $key . "&email=" . $email;
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url2);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-        $response = curl_exec($ch);
-        // dd($response);
-        // echo $response;
-        curl_close($ch);
+        // You can modify the timeout using the second parameter. Default is 15.
+        $key = env('ZEROBOUNCE_API_KEY');
+        $handler = new ZeroBounce($key, 15);
 
+        $zbemail = new Email(
+            // The email address you want to check
+            $email,
+            // and if you have it, the IP address - otherwise null or omitted
+            // '123.123.123.123'
+        );
 
+        try {
+           // Validate the email
+            $result = $handler->validateEmail($zbemail);
+
+            if ($result->getStatus() === Result::STATUS_VALID) {
+                // All good
+                $response = "OK";
+            }
+        } catch (\nickdnk\ZeroBounce\APIError $exception) {
+            // Something happened. Perhaps a bad API key or insufficient credit.
+        }
 
         $name = $request->name;
         $email = $request->email;
@@ -82,19 +86,16 @@ class FormController extends Controller
         $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=" . $_POST['g-recaptcha-response'];
         $verify = json_decode(file_get_contents($url));
 
-//   dd($response);
-
-        if ($verify->success && $response==="ok") {
-
+        if ($verify->success && $response==="OK") {
 
             Mail::to($email)->send(new ContactForm($request));
 
             return view('contact-response', compact('name', 'email', 'subject', 'message'));
         } else {
-            // Session::flash('alert', "Special message goes here");
-            // dd($verify);
+
             $verify = session()->put($verify->success, false);
-            return redirect()->back()->withInput();
+
+            return redirect()->back()->withInput()->with('error', 'This email address cannot be verified. Perhaps a typo?');
         }
     }
 

@@ -46,7 +46,7 @@ Route::get('/contactus-test', 'FormController@index2')->name('contactus');
     // return view('/contact-response');
 // });
 Route::post('/contact-response', 'FormController@store');
-Route::get('/contact-response', 'FormController@store');
+// Route::get('/contact-response', 'FormController@store');
 // Route::get('/contactus', 'PageController@contact');
 // Route::post('/contactus', 'ContactUsController@sendContact');
 // Route::get('/contact-response', 'PageController@contactResponse');
